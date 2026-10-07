@@ -78,7 +78,7 @@ greek-energy-forecasting/
 ├── Dockerfile                       # Docker image (CPU-only PyTorch)
 ├── docker-compose.yml               # API + Dashboard services
 ├── pyproject.toml                   # Project dependencies
-└── .env                             # API keys (not tracked)
+└── .env.example                             # API keys (not tracked)
 ```
 
 ## Features

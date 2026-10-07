@@ -1,0 +1,40 @@
+# ENTSO-E Transparency Platform
+entso_e:
+  base_url: "https://web-api.tp.entsoe.eu/api"
+  area_code: "10YGR-HTSO-----Y"   # Greece bidding zone
+  start_date: "2020-01-01"
+  end_date: "2026-09-13"
+
+# Open-Meteo Weather API
+weather:
+  forecast_url: "https://api.open-meteo.com/v1/forecast"
+  archive_url: "https://archive-api.open-meteo.com/v1/archive"
+  # Major Greek cities weighted by population/consumption
+  locations:
+    - name: "Athens"
+      latitude: 37.98
+      longitude: 23.73
+      weight: 0.50
+    - name: "Thessaloniki"
+      latitude: 40.63
+      longitude: 22.94
+      weight: 0.20
+    - name: "Patras"
+      latitude: 38.25
+      longitude: 21.74
+      weight: 0.10
+    - name: "Heraklion"
+      latitude: 35.34
+      longitude: 25.13
+      weight: 0.10
+    - name: "Larissa"
+      latitude: 39.64
+      longitude: 22.42
+      weight: 0.10
+
+# Data storage paths
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  features_dir: "data/features"
+  models_dir: "models"

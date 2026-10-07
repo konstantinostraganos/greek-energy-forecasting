@@ -1,0 +1,1313 @@
+2026-09-08 22:23:05 | INFO     | __main__:<module>:1 | Pipeline ready
+2026-09-13 16:28:04 | INFO     | __main__:<module>:8 | === Starting ENTSO-E download ===
+2026-09-13 16:28:04 | INFO     | energy_forecasting.data.entso_e_client:fetch_full_dataset:204 | Fetching full dataset: 2020-01-01 to 2025-06-30
+2026-09-13 16:28:04 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-01-01 to 2020-02-01
+2026-09-13 16:28:05 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:05 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-01-01 to 2020-02-01
+2026-09-13 16:28:07 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:07 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-02-01 to 2020-03-01
+2026-09-13 16:28:08 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 696 data points
+2026-09-13 16:28:08 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-02-01 to 2020-03-01
+2026-09-13 16:28:09 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 696 data points
+2026-09-13 16:28:09 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-03-01 to 2020-04-01
+2026-09-13 16:28:10 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:10 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-03-01 to 2020-04-01
+2026-09-13 16:28:11 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:11 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-04-01 to 2020-05-01
+2026-09-13 16:28:13 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:13 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-04-01 to 2020-05-01
+2026-09-13 16:28:13 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:13 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-05-01 to 2020-06-01
+2026-09-13 16:28:14 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:14 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-05-01 to 2020-06-01
+2026-09-13 16:28:15 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:15 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-06-01 to 2020-07-01
+2026-09-13 16:28:16 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-06-01 to 2020-07-01
+2026-09-13 16:28:17 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:17 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-07-01 to 2020-08-01
+2026-09-13 16:28:18 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:18 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-07-01 to 2020-08-01
+2026-09-13 16:28:18 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:18 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-08-01 to 2020-09-01
+2026-09-13 16:28:20 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:20 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-08-01 to 2020-09-01
+2026-09-13 16:28:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-09-01 to 2020-10-01
+2026-09-13 16:28:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-09-01 to 2020-10-01
+2026-09-13 16:28:22 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:22 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-10-01 to 2020-11-01
+2026-09-13 16:28:26 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:26 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-10-01 to 2020-11-01
+2026-09-13 16:28:28 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:28 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-11-01 to 2020-12-01
+2026-09-13 16:28:29 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:29 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-11-01 to 2020-12-01
+2026-09-13 16:28:29 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:29 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-12-01 to 2021-01-01
+2026-09-13 16:28:30 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:30 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-12-01 to 2021-01-01
+2026-09-13 16:28:31 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 739 data points
+2026-09-13 16:28:31 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-01-01 to 2021-02-01
+2026-09-13 16:28:33 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:33 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-01-01 to 2021-02-01
+2026-09-13 16:28:34 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:34 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-02-01 to 2021-03-01
+2026-09-13 16:28:35 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:28:35 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-02-01 to 2021-03-01
+2026-09-13 16:28:36 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 671 data points
+2026-09-13 16:28:36 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-03-01 to 2021-04-01
+2026-09-13 16:28:37 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:37 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-03-01 to 2021-04-01
+2026-09-13 16:28:37 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:28:37 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-04-01 to 2021-05-01
+2026-09-13 16:28:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-04-01 to 2021-05-01
+2026-09-13 16:28:39 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:28:39 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-05-01 to 2021-06-01
+2026-09-13 16:28:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-05-01 to 2021-06-01
+2026-09-13 16:28:41 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:28:41 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-06-01 to 2021-07-01
+2026-09-13 16:28:41 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:41 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-06-01 to 2021-07-01
+2026-09-13 16:28:42 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:28:42 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-07-01 to 2021-08-01
+2026-09-13 16:28:43 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:43 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-07-01 to 2021-08-01
+2026-09-13 16:28:44 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:28:44 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-08-01 to 2021-09-01
+2026-09-13 16:28:45 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:45 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-08-01 to 2021-09-01
+2026-09-13 16:28:48 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:28:48 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-09-01 to 2021-10-01
+2026-09-13 16:28:49 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:49 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-09-01 to 2021-10-01
+2026-09-13 16:28:51 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:51 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-10-01 to 2021-11-01
+2026-09-13 16:28:52 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:52 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-10-01 to 2021-11-01
+2026-09-13 16:28:52 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:28:52 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-11-01 to 2021-12-01
+2026-09-13 16:28:53 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:28:53 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-11-01 to 2021-12-01
+2026-09-13 16:28:54 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:28:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-12-01 to 2022-01-01
+2026-09-13 16:28:55 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:55 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-12-01 to 2022-01-01
+2026-09-13 16:28:56 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:28:56 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-01-01 to 2022-02-01
+2026-09-13 16:28:57 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:28:57 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-01-01 to 2022-02-01
+2026-09-13 16:28:58 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:28:58 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-02-01 to 2022-03-01
+2026-09-13 16:28:58 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:28:58 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-02-01 to 2022-03-01
+2026-09-13 16:28:59 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 670 data points
+2026-09-13 16:28:59 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-03-01 to 2022-04-01
+2026-09-13 16:29:00 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:29:00 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-03-01 to 2022-04-01
+2026-09-13 16:29:01 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:29:01 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-04-01 to 2022-05-01
+2026-09-13 16:29:02 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:29:02 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-04-01 to 2022-05-01
+2026-09-13 16:29:03 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:29:03 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-05-01 to 2022-06-01
+2026-09-13 16:29:04 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 740 data points
+2026-09-13 16:29:04 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-05-01 to 2022-06-01
+2026-09-13 16:29:05 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:29:05 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-06-01 to 2022-07-01
+2026-09-13 16:29:05 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:29:05 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-06-01 to 2022-07-01
+2026-09-13 16:29:06 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:29:06 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-07-01 to 2022-08-01
+2026-09-13 16:29:07 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:29:07 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-07-01 to 2022-08-01
+2026-09-13 16:29:08 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:29:08 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-08-01 to 2022-09-01
+2026-09-13 16:29:09 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:29:09 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-08-01 to 2022-09-01
+2026-09-13 16:29:09 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:29:09 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-09-01 to 2022-10-01
+2026-09-13 16:29:10 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:29:10 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-09-01 to 2022-10-01
+2026-09-13 16:29:11 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:29:11 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-10-01 to 2022-11-01
+2026-09-13 16:29:13 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:29:13 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-10-01 to 2022-11-01
+2026-09-13 16:29:14 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 740 data points
+2026-09-13 16:29:14 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-11-01 to 2022-12-01
+2026-09-13 16:29:15 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:29:15 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-11-01 to 2022-12-01
+2026-09-13 16:29:16 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:29:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-12-01 to 2023-01-01
+2026-09-13 16:29:16 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:29:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-12-01 to 2023-01-01
+2026-09-13 16:29:17 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:29:17 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-01-01 to 2023-02-01
+2026-09-13 16:29:18 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:29:18 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-01-01 to 2023-02-01
+2026-09-13 16:29:20 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:29:20 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-02-01 to 2023-03-01
+2026-09-13 16:29:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:29:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-02-01 to 2023-03-01
+2026-09-13 16:29:22 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:29:22 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-03-01 to 2023-04-01
+2026-09-13 16:29:22 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:29:22 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-03-01 to 2023-04-01
+2026-09-13 16:29:23 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:29:23 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-04-01 to 2023-05-01
+2026-09-13 16:29:27 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:29:27 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-04-01 to 2023-05-01
+2026-09-13 16:29:28 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:29:28 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-05-01 to 2023-06-01
+2026-09-13 16:29:29 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:29:29 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-05-01 to 2023-06-01
+2026-09-13 16:29:30 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:29:30 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-06-01 to 2023-07-01
+2026-09-13 16:29:36 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:29:36 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-06-01 to 2023-07-01
+2026-09-13 16:29:37 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:29:37 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-07-01 to 2023-08-01
+2026-09-13 16:29:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:29:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-07-01 to 2023-08-01
+2026-09-13 16:29:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:29:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-08-01 to 2023-09-01
+2026-09-13 16:29:39 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:29:39 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-08-01 to 2023-09-01
+2026-09-13 16:29:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:29:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-09-01 to 2023-10-01
+2026-09-13 16:29:41 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:29:41 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-09-01 to 2023-10-01
+2026-09-13 16:29:42 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:29:42 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-10-01 to 2023-11-01
+2026-09-13 16:29:42 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:29:42 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-10-01 to 2023-11-01
+2026-09-13 16:29:43 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:29:43 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-11-01 to 2023-12-01
+2026-09-13 16:29:44 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:29:44 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-11-01 to 2023-12-01
+2026-09-13 16:29:45 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:29:45 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-12-01 to 2024-01-01
+2026-09-13 16:29:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:29:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-12-01 to 2024-01-01
+2026-09-13 16:29:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:29:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-01-01 to 2024-02-01
+2026-09-13 16:29:47 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:29:47 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-01-01 to 2024-02-01
+2026-09-13 16:29:48 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:29:48 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-02-01 to 2024-03-01
+2026-09-13 16:29:51 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 695 data points
+2026-09-13 16:29:51 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-02-01 to 2024-03-01
+2026-09-13 16:29:52 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 696 data points
+2026-09-13 16:29:52 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-03-01 to 2024-04-01
+2026-09-13 16:29:53 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:29:53 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-03-01 to 2024-04-01
+2026-09-13 16:29:54 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:29:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-04-01 to 2024-05-01
+2026-09-13 16:29:54 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:29:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-04-01 to 2024-05-01
+2026-09-13 16:29:55 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:29:55 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-05-01 to 2024-06-01
+2026-09-13 16:29:56 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:29:56 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-05-01 to 2024-06-01
+2026-09-13 16:29:57 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:29:57 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-06-01 to 2024-07-01
+2026-09-13 16:29:57 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:29:57 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-06-01 to 2024-07-01
+2026-09-13 16:29:59 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:29:59 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-07-01 to 2024-08-01
+2026-09-13 16:30:03 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:30:03 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-07-01 to 2024-08-01
+2026-09-13 16:30:06 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:30:06 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-08-01 to 2024-09-01
+2026-09-13 16:30:11 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:30:11 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-08-01 to 2024-09-01
+2026-09-13 16:30:17 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 740 data points
+2026-09-13 16:30:17 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-09-01 to 2024-10-01
+2026-09-13 16:30:19 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:30:19 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-09-01 to 2024-10-01
+2026-09-13 16:30:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:30:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-10-01 to 2024-11-01
+2026-09-13 16:30:39 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:30:39 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-10-01 to 2024-11-01
+2026-09-13 16:30:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:30:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-11-01 to 2024-12-01
+2026-09-13 16:30:41 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:30:41 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-11-01 to 2024-12-01
+2026-09-13 16:30:42 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:30:42 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-12-01 to 2025-01-01
+2026-09-13 16:30:43 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:30:43 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-12-01 to 2025-01-01
+2026-09-13 16:30:55 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:30:55 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-01-01 to 2025-02-01
+2026-09-13 16:30:56 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:30:56 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-01-01 to 2025-02-01
+2026-09-13 16:31:06 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 739 data points
+2026-09-13 16:31:06 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-02-01 to 2025-03-01
+2026-09-13 16:31:10 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:31:10 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-02-01 to 2025-03-01
+2026-09-13 16:31:12 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 670 data points
+2026-09-13 16:31:12 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-03-01 to 2025-04-01
+2026-09-13 16:31:15 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:31:15 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-03-01 to 2025-04-01
+2026-09-13 16:31:20 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:31:20 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-04-01 to 2025-05-01
+2026-09-13 16:31:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:31:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-04-01 to 2025-05-01
+2026-09-13 16:31:23 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:31:23 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-05-01 to 2025-06-01
+2026-09-13 16:31:24 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:31:24 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-05-01 to 2025-06-01
+2026-09-13 16:31:26 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:31:26 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-06-01 to 2025-06-30
+2026-09-13 16:31:29 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 695 data points
+2026-09-13 16:31:29 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-06-01 to 2025-06-30
+2026-09-13 16:31:31 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 694 data points
+2026-09-13 16:31:32 | INFO     | energy_forecasting.data.entso_e_client:fetch_full_dataset:250 | Dataset complete: 48167 rows, 2020-01-01 00:00:00+00:00 to 2025-06-29 23:00:00+00:00
+2026-09-13 16:34:16 | INFO     | __main__:<module>:8 | === Starting ENTSO-E download ===
+2026-09-13 16:34:16 | INFO     | energy_forecasting.data.entso_e_client:fetch_full_dataset:204 | Fetching full dataset: 2020-01-01 to 2025-06-30
+2026-09-13 16:34:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-01-01 to 2020-02-01
+2026-09-13 16:34:17 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:17 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-01-01 to 2020-02-01
+2026-09-13 16:34:17 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:17 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-02-01 to 2020-03-01
+2026-09-13 16:34:18 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 696 data points
+2026-09-13 16:34:18 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-02-01 to 2020-03-01
+2026-09-13 16:34:19 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 696 data points
+2026-09-13 16:34:19 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-03-01 to 2020-04-01
+2026-09-13 16:34:19 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:19 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-03-01 to 2020-04-01
+2026-09-13 16:34:20 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:20 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-04-01 to 2020-05-01
+2026-09-13 16:34:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-04-01 to 2020-05-01
+2026-09-13 16:34:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-05-01 to 2020-06-01
+2026-09-13 16:34:28 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:28 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-05-01 to 2020-06-01
+2026-09-13 16:34:29 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:29 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-06-01 to 2020-07-01
+2026-09-13 16:34:30 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:30 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-06-01 to 2020-07-01
+2026-09-13 16:34:30 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:30 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-07-01 to 2020-08-01
+2026-09-13 16:34:31 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:31 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-07-01 to 2020-08-01
+2026-09-13 16:34:31 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:31 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-08-01 to 2020-09-01
+2026-09-13 16:34:32 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:32 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-08-01 to 2020-09-01
+2026-09-13 16:34:33 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:33 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-09-01 to 2020-10-01
+2026-09-13 16:34:34 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:34 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-09-01 to 2020-10-01
+2026-09-13 16:34:35 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:35 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-10-01 to 2020-11-01
+2026-09-13 16:34:36 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:36 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-10-01 to 2020-11-01
+2026-09-13 16:34:37 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:37 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-11-01 to 2020-12-01
+2026-09-13 16:34:37 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:37 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-11-01 to 2020-12-01
+2026-09-13 16:34:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-12-01 to 2021-01-01
+2026-09-13 16:34:39 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:39 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-12-01 to 2021-01-01
+2026-09-13 16:34:39 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 739 data points
+2026-09-13 16:34:39 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-01-01 to 2021-02-01
+2026-09-13 16:34:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-01-01 to 2021-02-01
+2026-09-13 16:34:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-02-01 to 2021-03-01
+2026-09-13 16:34:41 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:34:41 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-02-01 to 2021-03-01
+2026-09-13 16:34:42 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 671 data points
+2026-09-13 16:34:42 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-03-01 to 2021-04-01
+2026-09-13 16:34:43 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:43 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-03-01 to 2021-04-01
+2026-09-13 16:34:43 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:34:43 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-04-01 to 2021-05-01
+2026-09-13 16:34:44 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:44 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-04-01 to 2021-05-01
+2026-09-13 16:34:45 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:34:45 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-05-01 to 2021-06-01
+2026-09-13 16:34:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-05-01 to 2021-06-01
+2026-09-13 16:34:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:34:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-06-01 to 2021-07-01
+2026-09-13 16:34:47 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:47 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-06-01 to 2021-07-01
+2026-09-13 16:34:48 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:34:48 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-07-01 to 2021-08-01
+2026-09-13 16:34:49 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:49 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-07-01 to 2021-08-01
+2026-09-13 16:34:49 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:34:49 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-08-01 to 2021-09-01
+2026-09-13 16:34:50 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:50 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-08-01 to 2021-09-01
+2026-09-13 16:34:51 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:34:51 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-09-01 to 2021-10-01
+2026-09-13 16:34:52 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:52 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-09-01 to 2021-10-01
+2026-09-13 16:34:53 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:53 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-10-01 to 2021-11-01
+2026-09-13 16:34:54 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-10-01 to 2021-11-01
+2026-09-13 16:34:55 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:34:55 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-11-01 to 2021-12-01
+2026-09-13 16:34:55 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:34:55 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-11-01 to 2021-12-01
+2026-09-13 16:34:56 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:34:56 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-12-01 to 2022-01-01
+2026-09-13 16:34:57 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:57 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-12-01 to 2022-01-01
+2026-09-13 16:34:58 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:34:58 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-01-01 to 2022-02-01
+2026-09-13 16:34:58 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:34:58 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-01-01 to 2022-02-01
+2026-09-13 16:34:59 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:34:59 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-02-01 to 2022-03-01
+2026-09-13 16:35:00 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:35:00 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-02-01 to 2022-03-01
+2026-09-13 16:35:03 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 670 data points
+2026-09-13 16:35:03 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-03-01 to 2022-04-01
+2026-09-13 16:35:04 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:35:04 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-03-01 to 2022-04-01
+2026-09-13 16:35:05 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:35:05 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-04-01 to 2022-05-01
+2026-09-13 16:35:06 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:35:06 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-04-01 to 2022-05-01
+2026-09-13 16:35:07 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:35:07 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-05-01 to 2022-06-01
+2026-09-13 16:35:08 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 740 data points
+2026-09-13 16:35:08 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-05-01 to 2022-06-01
+2026-09-13 16:35:08 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:35:08 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-06-01 to 2022-07-01
+2026-09-13 16:35:10 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:35:10 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-06-01 to 2022-07-01
+2026-09-13 16:35:11 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:35:11 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-07-01 to 2022-08-01
+2026-09-13 16:35:12 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:35:12 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-07-01 to 2022-08-01
+2026-09-13 16:35:15 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:35:15 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-08-01 to 2022-09-01
+2026-09-13 16:35:16 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:35:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-08-01 to 2022-09-01
+2026-09-13 16:35:17 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:35:17 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-09-01 to 2022-10-01
+2026-09-13 16:35:18 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:35:18 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-09-01 to 2022-10-01
+2026-09-13 16:35:19 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:35:19 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-10-01 to 2022-11-01
+2026-09-13 16:35:20 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:35:20 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-10-01 to 2022-11-01
+2026-09-13 16:35:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 740 data points
+2026-09-13 16:35:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-11-01 to 2022-12-01
+2026-09-13 16:35:22 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:35:22 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-11-01 to 2022-12-01
+2026-09-13 16:35:23 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:35:23 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-12-01 to 2023-01-01
+2026-09-13 16:35:24 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:35:24 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-12-01 to 2023-01-01
+2026-09-13 16:35:25 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:35:25 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-01-01 to 2023-02-01
+2026-09-13 16:35:26 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:35:26 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-01-01 to 2023-02-01
+2026-09-13 16:35:27 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:35:27 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-02-01 to 2023-03-01
+2026-09-13 16:35:28 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:35:28 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-02-01 to 2023-03-01
+2026-09-13 16:35:29 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:35:29 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-03-01 to 2023-04-01
+2026-09-13 16:35:31 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:35:31 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-03-01 to 2023-04-01
+2026-09-13 16:35:32 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:35:32 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-04-01 to 2023-05-01
+2026-09-13 16:35:33 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:35:33 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-04-01 to 2023-05-01
+2026-09-13 16:35:33 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:35:33 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-05-01 to 2023-06-01
+2026-09-13 16:35:34 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:35:34 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-05-01 to 2023-06-01
+2026-09-13 16:35:35 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:35:35 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-06-01 to 2023-07-01
+2026-09-13 16:35:35 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:35:35 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-06-01 to 2023-07-01
+2026-09-13 16:35:36 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:35:36 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-07-01 to 2023-08-01
+2026-09-13 16:35:37 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:35:37 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-07-01 to 2023-08-01
+2026-09-13 16:35:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:35:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-08-01 to 2023-09-01
+2026-09-13 16:35:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:35:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-08-01 to 2023-09-01
+2026-09-13 16:35:39 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:35:39 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-09-01 to 2023-10-01
+2026-09-13 16:35:41 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:35:41 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-09-01 to 2023-10-01
+2026-09-13 16:35:44 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:35:44 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-10-01 to 2023-11-01
+2026-09-13 16:35:45 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:35:45 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-10-01 to 2023-11-01
+2026-09-13 16:35:47 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:35:47 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-11-01 to 2023-12-01
+2026-09-13 16:35:48 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:35:48 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-11-01 to 2023-12-01
+2026-09-13 16:35:49 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:35:49 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-12-01 to 2024-01-01
+2026-09-13 16:35:51 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:35:51 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-12-01 to 2024-01-01
+2026-09-13 16:35:52 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:35:52 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-01-01 to 2024-02-01
+2026-09-13 16:35:53 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:35:53 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-01-01 to 2024-02-01
+2026-09-13 16:35:55 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:35:55 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-02-01 to 2024-03-01
+2026-09-13 16:35:57 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 695 data points
+2026-09-13 16:35:57 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-02-01 to 2024-03-01
+2026-09-13 16:35:58 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 696 data points
+2026-09-13 16:35:58 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-03-01 to 2024-04-01
+2026-09-13 16:35:59 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:35:59 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-03-01 to 2024-04-01
+2026-09-13 16:36:00 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:36:00 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-04-01 to 2024-05-01
+2026-09-13 16:36:01 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:36:01 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-04-01 to 2024-05-01
+2026-09-13 16:36:02 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:36:02 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-05-01 to 2024-06-01
+2026-09-13 16:36:03 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:36:03 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-05-01 to 2024-06-01
+2026-09-13 16:36:05 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:36:05 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-06-01 to 2024-07-01
+2026-09-13 16:36:07 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:36:07 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-06-01 to 2024-07-01
+2026-09-13 16:36:07 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:36:07 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-07-01 to 2024-08-01
+2026-09-13 16:36:08 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:36:08 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-07-01 to 2024-08-01
+2026-09-13 16:36:09 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:36:09 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-08-01 to 2024-09-01
+2026-09-13 16:36:10 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:36:10 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-08-01 to 2024-09-01
+2026-09-13 16:36:12 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 740 data points
+2026-09-13 16:36:12 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-09-01 to 2024-10-01
+2026-09-13 16:36:12 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:36:12 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-09-01 to 2024-10-01
+2026-09-13 16:36:13 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:36:13 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-10-01 to 2024-11-01
+2026-09-13 16:36:14 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:36:14 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-10-01 to 2024-11-01
+2026-09-13 16:36:16 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:36:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-11-01 to 2024-12-01
+2026-09-13 16:36:17 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:36:17 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-11-01 to 2024-12-01
+2026-09-13 16:36:18 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:36:18 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-12-01 to 2025-01-01
+2026-09-13 16:36:19 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:36:19 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-12-01 to 2025-01-01
+2026-09-13 16:36:20 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:36:20 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-01-01 to 2025-02-01
+2026-09-13 16:36:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:36:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-01-01 to 2025-02-01
+2026-09-13 16:36:22 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 739 data points
+2026-09-13 16:36:22 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-02-01 to 2025-03-01
+2026-09-13 16:36:23 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:36:23 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-02-01 to 2025-03-01
+2026-09-13 16:36:24 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 670 data points
+2026-09-13 16:36:24 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-03-01 to 2025-04-01
+2026-09-13 16:36:25 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:36:25 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-03-01 to 2025-04-01
+2026-09-13 16:36:26 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:36:26 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-04-01 to 2025-05-01
+2026-09-13 16:36:27 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:36:27 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-04-01 to 2025-05-01
+2026-09-13 16:36:28 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:36:28 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-05-01 to 2025-06-01
+2026-09-13 16:36:29 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:36:29 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-05-01 to 2025-06-01
+2026-09-13 16:36:31 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:36:31 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-06-01 to 2025-06-30
+2026-09-13 16:36:32 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 695 data points
+2026-09-13 16:36:32 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-06-01 to 2025-06-30
+2026-09-13 16:36:34 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 694 data points
+2026-09-13 16:36:34 | INFO     | energy_forecasting.data.entso_e_client:fetch_full_dataset:250 | Dataset complete: 48167 rows, 2020-01-01 00:00:00+00:00 to 2025-06-29 23:00:00+00:00
+2026-09-13 16:36:41 | INFO     | energy_forecasting.data.entso_e_client:save_raw_data:270 | Saved 48167 rows to data\raw\entso_e_load.parquet (0.7 MB)
+2026-09-13 16:36:41 | INFO     | __main__:<module>:18 | === Starting Weather download ===
+2026-09-13 16:36:41 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:108 | Fetching weather data: 2020-01-01 to 2025-06-30
+2026-09-13 16:36:41 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:121 |   Fetching Athens (weight=0.5)
+2026-09-13 16:36:42 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:121 |   Fetching Thessaloniki (weight=0.2)
+2026-09-13 16:36:44 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:121 |   Fetching Patras (weight=0.1)
+2026-09-13 16:36:46 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:121 |   Fetching Heraklion (weight=0.1)
+2026-09-13 16:36:47 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:121 |   Fetching Larissa (weight=0.1)
+2026-09-13 16:36:49 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:149 | Weather data complete: 48192 rows
+2026-09-13 16:36:49 | INFO     | energy_forecasting.data.weather_client:save_raw_data:163 | Saved 48192 rows to data\raw\weather.parquet (0.8 MB)
+2026-09-13 16:36:49 | INFO     | __main__:<module>:27 | === Download complete ===
+2026-09-13 16:44:18 | INFO     | __main__:<module>:8 | === Starting ENTSO-E download ===
+2026-09-13 16:44:18 | INFO     | energy_forecasting.data.entso_e_client:fetch_full_dataset:204 | Fetching full dataset: 2020-01-01 to 2026-09-13
+2026-09-13 16:44:18 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-01-01 to 2020-02-01
+2026-09-13 16:44:19 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:19 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-01-01 to 2020-02-01
+2026-09-13 16:44:20 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:20 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-02-01 to 2020-03-01
+2026-09-13 16:44:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 696 data points
+2026-09-13 16:44:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-02-01 to 2020-03-01
+2026-09-13 16:44:22 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 696 data points
+2026-09-13 16:44:22 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-03-01 to 2020-04-01
+2026-09-13 16:44:23 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:23 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-03-01 to 2020-04-01
+2026-09-13 16:44:24 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:24 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-04-01 to 2020-05-01
+2026-09-13 16:44:24 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:44:24 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-04-01 to 2020-05-01
+2026-09-13 16:44:27 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:44:27 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-05-01 to 2020-06-01
+2026-09-13 16:44:28 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:28 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-05-01 to 2020-06-01
+2026-09-13 16:44:28 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:28 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-06-01 to 2020-07-01
+2026-09-13 16:44:29 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:44:29 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-06-01 to 2020-07-01
+2026-09-13 16:44:30 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:44:30 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-07-01 to 2020-08-01
+2026-09-13 16:44:31 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:31 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-07-01 to 2020-08-01
+2026-09-13 16:44:32 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:32 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-08-01 to 2020-09-01
+2026-09-13 16:44:33 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:33 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-08-01 to 2020-09-01
+2026-09-13 16:44:34 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:34 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-09-01 to 2020-10-01
+2026-09-13 16:44:35 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:44:35 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-09-01 to 2020-10-01
+2026-09-13 16:44:36 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:44:36 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-10-01 to 2020-11-01
+2026-09-13 16:44:36 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:36 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-10-01 to 2020-11-01
+2026-09-13 16:44:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-11-01 to 2020-12-01
+2026-09-13 16:44:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:44:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-11-01 to 2020-12-01
+2026-09-13 16:44:39 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:44:39 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-12-01 to 2021-01-01
+2026-09-13 16:44:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-12-01 to 2021-01-01
+2026-09-13 16:44:44 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 739 data points
+2026-09-13 16:44:44 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-01-01 to 2021-02-01
+2026-09-13 16:44:45 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:45 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-01-01 to 2021-02-01
+2026-09-13 16:44:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-02-01 to 2021-03-01
+2026-09-13 16:44:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:44:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-02-01 to 2021-03-01
+2026-09-13 16:44:49 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 671 data points
+2026-09-13 16:44:49 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-03-01 to 2021-04-01
+2026-09-13 16:44:50 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:50 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-03-01 to 2021-04-01
+2026-09-13 16:44:50 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:44:50 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-04-01 to 2021-05-01
+2026-09-13 16:44:51 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:44:51 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-04-01 to 2021-05-01
+2026-09-13 16:44:52 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:44:52 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-05-01 to 2021-06-01
+2026-09-13 16:44:53 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:53 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-05-01 to 2021-06-01
+2026-09-13 16:44:54 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:44:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-06-01 to 2021-07-01
+2026-09-13 16:44:56 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:44:56 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-06-01 to 2021-07-01
+2026-09-13 16:44:56 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:44:56 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-07-01 to 2021-08-01
+2026-09-13 16:44:57 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:57 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-07-01 to 2021-08-01
+2026-09-13 16:44:58 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:44:58 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-08-01 to 2021-09-01
+2026-09-13 16:44:59 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:44:59 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-08-01 to 2021-09-01
+2026-09-13 16:45:01 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:45:01 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-09-01 to 2021-10-01
+2026-09-13 16:45:04 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:45:04 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-09-01 to 2021-10-01
+2026-09-13 16:45:08 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:45:08 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-10-01 to 2021-11-01
+2026-09-13 16:45:12 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:45:12 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-10-01 to 2021-11-01
+2026-09-13 16:45:14 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:45:15 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-11-01 to 2021-12-01
+2026-09-13 16:45:18 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:45:18 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-11-01 to 2021-12-01
+2026-09-13 16:45:32 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:45:32 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-12-01 to 2022-01-01
+2026-09-13 16:45:37 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:45:37 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-12-01 to 2022-01-01
+2026-09-13 16:45:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:45:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-01-01 to 2022-02-01
+2026-09-13 16:45:49 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:45:49 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-01-01 to 2022-02-01
+2026-09-13 16:45:53 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:45:53 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-02-01 to 2022-03-01
+2026-09-13 16:46:04 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:46:04 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-02-01 to 2022-03-01
+2026-09-13 16:46:06 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 670 data points
+2026-09-13 16:46:06 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-03-01 to 2022-04-01
+2026-09-13 16:46:09 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:46:09 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-03-01 to 2022-04-01
+2026-09-13 16:46:12 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:46:12 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-04-01 to 2022-05-01
+2026-09-13 16:46:14 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:46:14 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-04-01 to 2022-05-01
+2026-09-13 16:46:16 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:46:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-05-01 to 2022-06-01
+2026-09-13 16:46:19 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 740 data points
+2026-09-13 16:46:19 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-05-01 to 2022-06-01
+2026-09-13 16:46:20 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:46:20 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-06-01 to 2022-07-01
+2026-09-13 16:46:23 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:46:23 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-06-01 to 2022-07-01
+2026-09-13 16:46:29 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:46:29 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-07-01 to 2022-08-01
+2026-09-13 16:46:31 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:46:31 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-07-01 to 2022-08-01
+2026-09-13 16:46:33 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:46:33 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-08-01 to 2022-09-01
+2026-09-13 16:46:34 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:46:34 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-08-01 to 2022-09-01
+2026-09-13 16:46:36 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:46:36 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-09-01 to 2022-10-01
+2026-09-13 16:46:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:46:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-09-01 to 2022-10-01
+2026-09-13 16:46:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:46:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-10-01 to 2022-11-01
+2026-09-13 16:46:41 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:46:41 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-10-01 to 2022-11-01
+2026-09-13 16:46:43 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 740 data points
+2026-09-13 16:46:43 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-11-01 to 2022-12-01
+2026-09-13 16:46:44 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:46:44 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-11-01 to 2022-12-01
+2026-09-13 16:46:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:46:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-12-01 to 2023-01-01
+2026-09-13 16:46:48 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:46:48 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-12-01 to 2023-01-01
+2026-09-13 16:46:50 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:46:50 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-01-01 to 2023-02-01
+2026-09-13 16:46:52 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:46:52 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-01-01 to 2023-02-01
+2026-09-13 16:46:54 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:46:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-02-01 to 2023-03-01
+2026-09-13 16:46:54 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:46:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-02-01 to 2023-03-01
+2026-09-13 16:46:55 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:46:55 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-03-01 to 2023-04-01
+2026-09-13 16:46:57 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:46:57 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-03-01 to 2023-04-01
+2026-09-13 16:46:59 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:46:59 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-04-01 to 2023-05-01
+2026-09-13 16:47:01 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:47:01 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-04-01 to 2023-05-01
+2026-09-13 16:47:03 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:47:03 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-05-01 to 2023-06-01
+2026-09-13 16:47:05 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:47:05 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-05-01 to 2023-06-01
+2026-09-13 16:47:07 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:47:07 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-06-01 to 2023-07-01
+2026-09-13 16:47:11 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:47:11 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-06-01 to 2023-07-01
+2026-09-13 16:47:13 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:47:13 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-07-01 to 2023-08-01
+2026-09-13 16:47:14 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:47:14 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-07-01 to 2023-08-01
+2026-09-13 16:47:15 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:47:15 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-08-01 to 2023-09-01
+2026-09-13 16:47:16 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:47:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-08-01 to 2023-09-01
+2026-09-13 16:47:17 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:47:17 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-09-01 to 2023-10-01
+2026-09-13 16:47:19 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:47:19 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-09-01 to 2023-10-01
+2026-09-13 16:47:22 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:47:22 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-10-01 to 2023-11-01
+2026-09-13 16:47:24 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:47:24 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-10-01 to 2023-11-01
+2026-09-13 16:47:26 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:47:26 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-11-01 to 2023-12-01
+2026-09-13 16:47:29 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:47:29 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-11-01 to 2023-12-01
+2026-09-13 16:47:32 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:47:32 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-12-01 to 2024-01-01
+2026-09-13 16:47:34 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:47:34 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-12-01 to 2024-01-01
+2026-09-13 16:47:35 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:47:35 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-01-01 to 2024-02-01
+2026-09-13 16:47:36 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:47:36 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-01-01 to 2024-02-01
+2026-09-13 16:47:37 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:47:37 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-02-01 to 2024-03-01
+2026-09-13 16:47:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 695 data points
+2026-09-13 16:47:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-02-01 to 2024-03-01
+2026-09-13 16:47:39 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 696 data points
+2026-09-13 16:47:39 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-03-01 to 2024-04-01
+2026-09-13 16:47:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:47:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-03-01 to 2024-04-01
+2026-09-13 16:47:41 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:47:41 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-04-01 to 2024-05-01
+2026-09-13 16:47:43 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:47:43 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-04-01 to 2024-05-01
+2026-09-13 16:47:44 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:47:44 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-05-01 to 2024-06-01
+2026-09-13 16:47:45 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:47:45 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-05-01 to 2024-06-01
+2026-09-13 16:47:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:47:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-06-01 to 2024-07-01
+2026-09-13 16:47:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:47:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-06-01 to 2024-07-01
+2026-09-13 16:47:48 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:47:48 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-07-01 to 2024-08-01
+2026-09-13 16:47:49 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:47:49 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-07-01 to 2024-08-01
+2026-09-13 16:47:50 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:47:50 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-08-01 to 2024-09-01
+2026-09-13 16:47:50 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:47:50 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-08-01 to 2024-09-01
+2026-09-13 16:47:51 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 740 data points
+2026-09-13 16:47:51 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-09-01 to 2024-10-01
+2026-09-13 16:47:52 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:47:52 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-09-01 to 2024-10-01
+2026-09-13 16:47:53 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:47:53 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-10-01 to 2024-11-01
+2026-09-13 16:47:54 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:47:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-10-01 to 2024-11-01
+2026-09-13 16:47:55 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:47:55 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-11-01 to 2024-12-01
+2026-09-13 16:47:56 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:47:56 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-11-01 to 2024-12-01
+2026-09-13 16:47:57 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:47:57 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-12-01 to 2025-01-01
+2026-09-13 16:47:58 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:47:58 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-12-01 to 2025-01-01
+2026-09-13 16:47:59 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:47:59 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-01-01 to 2025-02-01
+2026-09-13 16:48:00 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:48:00 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-01-01 to 2025-02-01
+2026-09-13 16:48:02 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 739 data points
+2026-09-13 16:48:02 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-02-01 to 2025-03-01
+2026-09-13 16:48:03 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:48:03 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-02-01 to 2025-03-01
+2026-09-13 16:48:05 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 670 data points
+2026-09-13 16:48:05 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-03-01 to 2025-04-01
+2026-09-13 16:48:06 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:48:06 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-03-01 to 2025-04-01
+2026-09-13 16:48:09 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:48:09 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-04-01 to 2025-05-01
+2026-09-13 16:48:10 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:48:10 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-04-01 to 2025-05-01
+2026-09-13 16:48:11 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:48:11 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-05-01 to 2025-06-01
+2026-09-13 16:48:12 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:48:12 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-05-01 to 2025-06-01
+2026-09-13 16:48:13 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:48:13 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-06-01 to 2025-07-01
+2026-09-13 16:48:15 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:48:15 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-06-01 to 2025-07-01
+2026-09-13 16:48:16 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:48:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-07-01 to 2025-08-01
+2026-09-13 16:48:17 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:48:17 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-07-01 to 2025-08-01
+2026-09-13 16:48:18 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:48:18 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-08-01 to 2025-09-01
+2026-09-13 16:48:20 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:48:20 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-08-01 to 2025-09-01
+2026-09-13 16:48:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:48:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-09-01 to 2025-10-01
+2026-09-13 16:48:22 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:48:22 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-09-01 to 2025-10-01
+2026-09-13 16:48:23 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:48:23 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-10-01 to 2025-11-01
+2026-09-13 16:48:24 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:48:24 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-10-01 to 2025-11-01
+2026-09-13 16:48:25 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:48:25 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-11-01 to 2025-12-01
+2026-09-13 16:48:26 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2008 data points
+2026-09-13 16:48:26 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-11-01 to 2025-12-01
+2026-09-13 16:48:28 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 1935 data points
+2026-09-13 16:48:28 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-12-01 to 2026-01-01
+2026-09-13 16:48:29 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2961 data points
+2026-09-13 16:48:29 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-12-01 to 2026-01-01
+2026-09-13 16:48:30 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2834 data points
+2026-09-13 16:48:30 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-01-01 to 2026-02-01
+2026-09-13 16:48:32 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2957 data points
+2026-09-13 16:48:32 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-01-01 to 2026-02-01
+2026-09-13 16:48:33 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2854 data points
+2026-09-13 16:48:33 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-02-01 to 2026-03-01
+2026-09-13 16:48:36 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2680 data points
+2026-09-13 16:48:36 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-02-01 to 2026-03-01
+2026-09-13 16:48:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2530 data points
+2026-09-13 16:48:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-03-01 to 2026-04-01
+2026-09-13 16:48:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2957 data points
+2026-09-13 16:48:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-03-01 to 2026-04-01
+2026-09-13 16:48:42 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2815 data points
+2026-09-13 16:48:42 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-04-01 to 2026-05-01
+2026-09-13 16:48:44 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2862 data points
+2026-09-13 16:48:44 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-04-01 to 2026-05-01
+2026-09-13 16:48:45 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2703 data points
+2026-09-13 16:48:45 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-05-01 to 2026-06-01
+2026-09-13 16:48:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2962 data points
+2026-09-13 16:48:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-05-01 to 2026-06-01
+2026-09-13 16:48:48 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2786 data points
+2026-09-13 16:48:48 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-06-01 to 2026-07-01
+2026-09-13 16:48:51 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2862 data points
+2026-09-13 16:48:51 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-06-01 to 2026-07-01
+2026-09-13 16:48:52 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2735 data points
+2026-09-13 16:48:52 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-07-01 to 2026-08-01
+2026-09-13 16:48:53 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2961 data points
+2026-09-13 16:48:53 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-07-01 to 2026-08-01
+2026-09-13 16:48:54 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2776 data points
+2026-09-13 16:48:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-08-01 to 2026-09-01
+2026-09-13 16:48:55 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2955 data points
+2026-09-13 16:48:55 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-08-01 to 2026-09-01
+2026-09-13 16:48:57 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2805 data points
+2026-09-13 16:48:57 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-09-01 to 2026-09-13
+2026-09-13 16:48:58 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 1147 data points
+2026-09-13 16:48:58 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-09-01 to 2026-09-13
+2026-09-13 16:48:58 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 1099 data points
+2026-09-13 16:48:59 | INFO     | energy_forecasting.data.entso_e_client:fetch_full_dataset:250 | Dataset complete: 80599 rows, 2020-01-01 00:00:00+00:00 to 2026-09-12 23:45:00+00:00
+2026-09-13 16:49:00 | INFO     | energy_forecasting.data.entso_e_client:save_raw_data:270 | Saved 80599 rows to data\raw\entso_e_load.parquet (1.1 MB)
+2026-09-13 16:49:00 | INFO     | __main__:<module>:18 | === Starting Weather download ===
+2026-09-13 16:49:00 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:108 | Fetching weather data: 2020-01-01 to 2026-09-13
+2026-09-13 16:49:00 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:121 |   Fetching Athens (weight=0.5)
+2026-09-13 16:49:00 | ERROR    | energy_forecasting.data.weather_client:fetch_weather_data:133 |   Failed to fetch Athens: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=37.98&longitude=23.73&start_date=2020-01-01&end_date=2026-09-13&hourly=temperature_2m%2Crelative_humidity_2m%2Cshortwave_radiation%2Cwind_speed_10m%2Cprecipitation&timezone=UTC
+2026-09-13 16:49:00 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:121 |   Fetching Thessaloniki (weight=0.2)
+2026-09-13 16:49:01 | ERROR    | energy_forecasting.data.weather_client:fetch_weather_data:133 |   Failed to fetch Thessaloniki: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=40.63&longitude=22.94&start_date=2020-01-01&end_date=2026-09-13&hourly=temperature_2m%2Crelative_humidity_2m%2Cshortwave_radiation%2Cwind_speed_10m%2Cprecipitation&timezone=UTC
+2026-09-13 16:49:01 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:121 |   Fetching Patras (weight=0.1)
+2026-09-13 16:49:02 | ERROR    | energy_forecasting.data.weather_client:fetch_weather_data:133 |   Failed to fetch Patras: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=38.25&longitude=21.74&start_date=2020-01-01&end_date=2026-09-13&hourly=temperature_2m%2Crelative_humidity_2m%2Cshortwave_radiation%2Cwind_speed_10m%2Cprecipitation&timezone=UTC
+2026-09-13 16:49:02 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:121 |   Fetching Heraklion (weight=0.1)
+2026-09-13 16:49:02 | ERROR    | energy_forecasting.data.weather_client:fetch_weather_data:133 |   Failed to fetch Heraklion: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=35.34&longitude=25.13&start_date=2020-01-01&end_date=2026-09-13&hourly=temperature_2m%2Crelative_humidity_2m%2Cshortwave_radiation%2Cwind_speed_10m%2Cprecipitation&timezone=UTC
+2026-09-13 16:49:02 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:121 |   Fetching Larissa (weight=0.1)
+2026-09-13 16:49:03 | ERROR    | energy_forecasting.data.weather_client:fetch_weather_data:133 |   Failed to fetch Larissa: 400 Client Error: Bad Request for url: https://api.open-meteo.com/v1/forecast?latitude=39.64&longitude=22.42&start_date=2020-01-01&end_date=2026-09-13&hourly=temperature_2m%2Crelative_humidity_2m%2Cshortwave_radiation%2Cwind_speed_10m%2Cprecipitation&timezone=UTC
+2026-09-13 16:49:03 | ERROR    | energy_forecasting.data.weather_client:fetch_weather_data:146 | No weather data fetched for any location
+2026-09-13 16:56:54 | INFO     | __main__:<module>:8 | === Starting ENTSO-E download ===
+2026-09-13 16:56:54 | INFO     | energy_forecasting.data.entso_e_client:fetch_full_dataset:204 | Fetching full dataset: 2020-01-01 to 2026-09-13
+2026-09-13 16:56:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-01-01 to 2020-02-01
+2026-09-13 16:56:55 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:56:55 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-01-01 to 2020-02-01
+2026-09-13 16:56:56 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:56:56 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-02-01 to 2020-03-01
+2026-09-13 16:56:59 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 696 data points
+2026-09-13 16:56:59 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-02-01 to 2020-03-01
+2026-09-13 16:56:59 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 696 data points
+2026-09-13 16:56:59 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-03-01 to 2020-04-01
+2026-09-13 16:57:01 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:01 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-03-01 to 2020-04-01
+2026-09-13 16:57:01 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:01 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-04-01 to 2020-05-01
+2026-09-13 16:57:02 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:02 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-04-01 to 2020-05-01
+2026-09-13 16:57:03 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:03 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-05-01 to 2020-06-01
+2026-09-13 16:57:04 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:04 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-05-01 to 2020-06-01
+2026-09-13 16:57:04 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:04 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-06-01 to 2020-07-01
+2026-09-13 16:57:05 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:05 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-06-01 to 2020-07-01
+2026-09-13 16:57:06 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:06 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-07-01 to 2020-08-01
+2026-09-13 16:57:06 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:06 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-07-01 to 2020-08-01
+2026-09-13 16:57:07 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:07 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-08-01 to 2020-09-01
+2026-09-13 16:57:07 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:07 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-08-01 to 2020-09-01
+2026-09-13 16:57:08 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:08 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-09-01 to 2020-10-01
+2026-09-13 16:57:09 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:09 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-09-01 to 2020-10-01
+2026-09-13 16:57:10 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:10 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-10-01 to 2020-11-01
+2026-09-13 16:57:10 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:10 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-10-01 to 2020-11-01
+2026-09-13 16:57:11 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:11 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-11-01 to 2020-12-01
+2026-09-13 16:57:12 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:12 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-11-01 to 2020-12-01
+2026-09-13 16:57:13 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:13 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2020-12-01 to 2021-01-01
+2026-09-13 16:57:14 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:14 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2020-12-01 to 2021-01-01
+2026-09-13 16:57:14 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 739 data points
+2026-09-13 16:57:14 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-01-01 to 2021-02-01
+2026-09-13 16:57:15 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:15 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-01-01 to 2021-02-01
+2026-09-13 16:57:16 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-02-01 to 2021-03-01
+2026-09-13 16:57:17 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:57:17 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-02-01 to 2021-03-01
+2026-09-13 16:57:18 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 671 data points
+2026-09-13 16:57:18 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-03-01 to 2021-04-01
+2026-09-13 16:57:19 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:19 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-03-01 to 2021-04-01
+2026-09-13 16:57:20 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:57:20 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-04-01 to 2021-05-01
+2026-09-13 16:57:20 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:20 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-04-01 to 2021-05-01
+2026-09-13 16:57:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:57:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-05-01 to 2021-06-01
+2026-09-13 16:57:22 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:22 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-05-01 to 2021-06-01
+2026-09-13 16:57:23 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:57:23 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-06-01 to 2021-07-01
+2026-09-13 16:57:24 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:24 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-06-01 to 2021-07-01
+2026-09-13 16:57:28 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:57:28 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-07-01 to 2021-08-01
+2026-09-13 16:57:30 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:30 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-07-01 to 2021-08-01
+2026-09-13 16:57:30 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:57:30 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-08-01 to 2021-09-01
+2026-09-13 16:57:31 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:31 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-08-01 to 2021-09-01
+2026-09-13 16:57:32 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:57:32 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-09-01 to 2021-10-01
+2026-09-13 16:57:33 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:33 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-09-01 to 2021-10-01
+2026-09-13 16:57:34 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:34 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-10-01 to 2021-11-01
+2026-09-13 16:57:35 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:35 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-10-01 to 2021-11-01
+2026-09-13 16:57:36 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:57:36 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-11-01 to 2021-12-01
+2026-09-13 16:57:36 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:36 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-11-01 to 2021-12-01
+2026-09-13 16:57:37 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:57:37 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2021-12-01 to 2022-01-01
+2026-09-13 16:57:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2021-12-01 to 2022-01-01
+2026-09-13 16:57:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-01-01 to 2022-02-01
+2026-09-13 16:57:39 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:57:39 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-01-01 to 2022-02-01
+2026-09-13 16:57:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:57:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-02-01 to 2022-03-01
+2026-09-13 16:57:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:57:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-02-01 to 2022-03-01
+2026-09-13 16:57:41 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 670 data points
+2026-09-13 16:57:41 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-03-01 to 2022-04-01
+2026-09-13 16:57:42 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:42 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-03-01 to 2022-04-01
+2026-09-13 16:57:42 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:42 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-04-01 to 2022-05-01
+2026-09-13 16:57:43 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:43 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-04-01 to 2022-05-01
+2026-09-13 16:57:43 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:57:43 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-05-01 to 2022-06-01
+2026-09-13 16:57:44 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 740 data points
+2026-09-13 16:57:44 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-05-01 to 2022-06-01
+2026-09-13 16:57:45 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:57:45 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-06-01 to 2022-07-01
+2026-09-13 16:57:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:57:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-06-01 to 2022-07-01
+2026-09-13 16:57:47 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:57:47 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-07-01 to 2022-08-01
+2026-09-13 16:57:48 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:48 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-07-01 to 2022-08-01
+2026-09-13 16:57:50 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:50 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-08-01 to 2022-09-01
+2026-09-13 16:57:51 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:57:51 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-08-01 to 2022-09-01
+2026-09-13 16:57:52 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:52 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-09-01 to 2022-10-01
+2026-09-13 16:57:53 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:57:53 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-09-01 to 2022-10-01
+2026-09-13 16:57:54 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:57:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-10-01 to 2022-11-01
+2026-09-13 16:57:54 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:57:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-10-01 to 2022-11-01
+2026-09-13 16:57:55 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 740 data points
+2026-09-13 16:57:55 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-11-01 to 2022-12-01
+2026-09-13 16:57:58 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:57:58 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-11-01 to 2022-12-01
+2026-09-13 16:57:59 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:57:59 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2022-12-01 to 2023-01-01
+2026-09-13 16:57:59 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:57:59 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2022-12-01 to 2023-01-01
+2026-09-13 16:58:01 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:01 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-01-01 to 2023-02-01
+2026-09-13 16:58:01 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:01 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-01-01 to 2023-02-01
+2026-09-13 16:58:03 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:58:03 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-02-01 to 2023-03-01
+2026-09-13 16:58:04 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:58:04 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-02-01 to 2023-03-01
+2026-09-13 16:58:05 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:58:05 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-03-01 to 2023-04-01
+2026-09-13 16:58:05 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:05 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-03-01 to 2023-04-01
+2026-09-13 16:58:06 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:58:06 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-04-01 to 2023-05-01
+2026-09-13 16:58:07 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:58:07 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-04-01 to 2023-05-01
+2026-09-13 16:58:08 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:58:08 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-05-01 to 2023-06-01
+2026-09-13 16:58:09 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:58:09 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-05-01 to 2023-06-01
+2026-09-13 16:58:09 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:09 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-06-01 to 2023-07-01
+2026-09-13 16:58:10 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:58:10 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-06-01 to 2023-07-01
+2026-09-13 16:58:11 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:58:11 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-07-01 to 2023-08-01
+2026-09-13 16:58:11 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:11 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-07-01 to 2023-08-01
+2026-09-13 16:58:12 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:12 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-08-01 to 2023-09-01
+2026-09-13 16:58:13 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:13 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-08-01 to 2023-09-01
+2026-09-13 16:58:14 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:14 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-09-01 to 2023-10-01
+2026-09-13 16:58:15 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:58:15 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-09-01 to 2023-10-01
+2026-09-13 16:58:16 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:58:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-10-01 to 2023-11-01
+2026-09-13 16:58:16 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:58:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-10-01 to 2023-11-01
+2026-09-13 16:58:17 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:17 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-11-01 to 2023-12-01
+2026-09-13 16:58:18 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:58:18 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-11-01 to 2023-12-01
+2026-09-13 16:58:18 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:58:18 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2023-12-01 to 2024-01-01
+2026-09-13 16:58:19 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:58:19 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2023-12-01 to 2024-01-01
+2026-09-13 16:58:19 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:19 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-01-01 to 2024-02-01
+2026-09-13 16:58:20 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:58:20 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-01-01 to 2024-02-01
+2026-09-13 16:58:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:58:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-02-01 to 2024-03-01
+2026-09-13 16:58:21 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 695 data points
+2026-09-13 16:58:21 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-02-01 to 2024-03-01
+2026-09-13 16:58:22 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 696 data points
+2026-09-13 16:58:22 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-03-01 to 2024-04-01
+2026-09-13 16:58:23 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:58:23 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-03-01 to 2024-04-01
+2026-09-13 16:58:24 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:58:24 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-04-01 to 2024-05-01
+2026-09-13 16:58:24 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:58:24 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-04-01 to 2024-05-01
+2026-09-13 16:58:25 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:58:25 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-05-01 to 2024-06-01
+2026-09-13 16:58:26 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:58:26 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-05-01 to 2024-06-01
+2026-09-13 16:58:27 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:58:27 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-06-01 to 2024-07-01
+2026-09-13 16:58:28 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:58:28 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-06-01 to 2024-07-01
+2026-09-13 16:58:28 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 717 data points
+2026-09-13 16:58:28 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-07-01 to 2024-08-01
+2026-09-13 16:58:29 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:58:29 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-07-01 to 2024-08-01
+2026-09-13 16:58:30 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:58:30 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-08-01 to 2024-09-01
+2026-09-13 16:58:31 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:58:31 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-08-01 to 2024-09-01
+2026-09-13 16:58:31 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 740 data points
+2026-09-13 16:58:31 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-09-01 to 2024-10-01
+2026-09-13 16:58:32 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:58:32 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-09-01 to 2024-10-01
+2026-09-13 16:58:33 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 720 data points
+2026-09-13 16:58:33 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-10-01 to 2024-11-01
+2026-09-13 16:58:34 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:34 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-10-01 to 2024-11-01
+2026-09-13 16:58:36 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:58:36 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-11-01 to 2024-12-01
+2026-09-13 16:58:37 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:58:37 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-11-01 to 2024-12-01
+2026-09-13 16:58:37 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:58:37 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2024-12-01 to 2025-01-01
+2026-09-13 16:58:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:58:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2024-12-01 to 2025-01-01
+2026-09-13 16:58:38 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:58:38 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-01-01 to 2025-02-01
+2026-09-13 16:58:39 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:58:39 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-01-01 to 2025-02-01
+2026-09-13 16:58:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 739 data points
+2026-09-13 16:58:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-02-01 to 2025-03-01
+2026-09-13 16:58:40 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 672 data points
+2026-09-13 16:58:40 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-02-01 to 2025-03-01
+2026-09-13 16:58:41 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 670 data points
+2026-09-13 16:58:41 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-03-01 to 2025-04-01
+2026-09-13 16:58:42 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:42 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-03-01 to 2025-04-01
+2026-09-13 16:58:42 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:42 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-04-01 to 2025-05-01
+2026-09-13 16:58:43 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:58:43 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-04-01 to 2025-05-01
+2026-09-13 16:58:44 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:58:44 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-05-01 to 2025-06-01
+2026-09-13 16:58:44 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:58:44 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-05-01 to 2025-06-01
+2026-09-13 16:58:45 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:45 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-06-01 to 2025-07-01
+2026-09-13 16:58:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:58:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-06-01 to 2025-07-01
+2026-09-13 16:58:46 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:58:46 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-07-01 to 2025-08-01
+2026-09-13 16:58:47 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 744 data points
+2026-09-13 16:58:47 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-07-01 to 2025-08-01
+2026-09-13 16:58:48 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:48 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-08-01 to 2025-09-01
+2026-09-13 16:58:49 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:49 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-08-01 to 2025-09-01
+2026-09-13 16:58:49 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 742 data points
+2026-09-13 16:58:49 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-09-01 to 2025-10-01
+2026-09-13 16:58:50 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 718 data points
+2026-09-13 16:58:50 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-09-01 to 2025-10-01
+2026-09-13 16:58:51 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 719 data points
+2026-09-13 16:58:51 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-10-01 to 2025-11-01
+2026-09-13 16:58:52 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 743 data points
+2026-09-13 16:58:52 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-10-01 to 2025-11-01
+2026-09-13 16:58:52 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 741 data points
+2026-09-13 16:58:52 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-11-01 to 2025-12-01
+2026-09-13 16:58:53 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2008 data points
+2026-09-13 16:58:53 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-11-01 to 2025-12-01
+2026-09-13 16:58:54 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 1935 data points
+2026-09-13 16:58:54 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2025-12-01 to 2026-01-01
+2026-09-13 16:58:55 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2961 data points
+2026-09-13 16:58:55 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2025-12-01 to 2026-01-01
+2026-09-13 16:58:56 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2834 data points
+2026-09-13 16:58:56 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-01-01 to 2026-02-01
+2026-09-13 16:58:58 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2957 data points
+2026-09-13 16:58:58 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-01-01 to 2026-02-01
+2026-09-13 16:58:59 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2854 data points
+2026-09-13 16:58:59 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-02-01 to 2026-03-01
+2026-09-13 16:59:00 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2680 data points
+2026-09-13 16:59:00 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-02-01 to 2026-03-01
+2026-09-13 16:59:02 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2530 data points
+2026-09-13 16:59:02 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-03-01 to 2026-04-01
+2026-09-13 16:59:04 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2957 data points
+2026-09-13 16:59:04 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-03-01 to 2026-04-01
+2026-09-13 16:59:05 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2815 data points
+2026-09-13 16:59:05 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-04-01 to 2026-05-01
+2026-09-13 16:59:06 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2862 data points
+2026-09-13 16:59:06 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-04-01 to 2026-05-01
+2026-09-13 16:59:08 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2703 data points
+2026-09-13 16:59:08 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-05-01 to 2026-06-01
+2026-09-13 16:59:09 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2962 data points
+2026-09-13 16:59:09 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-05-01 to 2026-06-01
+2026-09-13 16:59:10 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2786 data points
+2026-09-13 16:59:11 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-06-01 to 2026-07-01
+2026-09-13 16:59:11 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2862 data points
+2026-09-13 16:59:11 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-06-01 to 2026-07-01
+2026-09-13 16:59:12 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2735 data points
+2026-09-13 16:59:12 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-07-01 to 2026-08-01
+2026-09-13 16:59:13 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2961 data points
+2026-09-13 16:59:13 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-07-01 to 2026-08-01
+2026-09-13 16:59:14 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2776 data points
+2026-09-13 16:59:14 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-08-01 to 2026-09-01
+2026-09-13 16:59:15 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2955 data points
+2026-09-13 16:59:15 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-08-01 to 2026-09-01
+2026-09-13 16:59:16 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 2805 data points
+2026-09-13 16:59:16 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A16 data: 2026-09-01 to 2026-09-13
+2026-09-13 16:59:17 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 1147 data points
+2026-09-13 16:59:17 | INFO     | energy_forecasting.data.entso_e_client:_fetch_data:72 | Fetching A01 data: 2026-09-01 to 2026-09-13
+2026-09-13 16:59:18 | INFO     | energy_forecasting.data.entso_e_client:_parse_xml:128 | Parsed 1099 data points
+2026-09-13 16:59:18 | INFO     | energy_forecasting.data.entso_e_client:fetch_full_dataset:250 | Dataset complete: 80599 rows, 2020-01-01 00:00:00+00:00 to 2026-09-12 23:45:00+00:00
+2026-09-13 16:59:19 | INFO     | energy_forecasting.data.entso_e_client:save_raw_data:270 | Saved 80599 rows to data\raw\entso_e_load.parquet (1.1 MB)
+2026-09-13 16:59:19 | INFO     | __main__:<module>:18 | === Starting Weather download ===
+2026-09-13 16:59:19 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:132 | Fetching weather data: 2020-01-01 to 2026-09-13
+2026-09-13 16:59:19 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:145 |   Fetching Athens (weight=0.5)
+2026-09-13 16:59:22 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:145 |   Fetching Thessaloniki (weight=0.2)
+2026-09-13 16:59:25 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:145 |   Fetching Patras (weight=0.1)
+2026-09-13 16:59:27 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:145 |   Fetching Heraklion (weight=0.1)
+2026-09-13 16:59:30 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:145 |   Fetching Larissa (weight=0.1)
+2026-09-13 16:59:33 | INFO     | energy_forecasting.data.weather_client:fetch_weather_data:173 | Weather data complete: 58776 rows
+2026-09-13 16:59:33 | INFO     | energy_forecasting.data.weather_client:save_raw_data:187 | Saved 58776 rows to data\raw\weather.parquet (1.0 MB)
+2026-09-13 16:59:33 | INFO     | __main__:<module>:27 | === Download complete ===
+2026-09-13 17:30:24 | INFO     | __main__:<module>:9 | Loading raw data
+2026-09-13 17:30:25 | INFO     | energy_forecasting.data.validator:clean_energy:47 | Cleaning energy data: 80599 raw rows
+2026-09-13 17:30:25 | INFO     | energy_forecasting.data.validator:clean_energy:61 |   Resampled to hourly: 58728 rows
+2026-09-13 17:30:25 | WARNING  | energy_forecasting.data.validator:clean_energy:72 |   actual_load_mw: 3 outliers outside [2000, 12000] MW — set to NaN
+2026-09-13 17:30:25 | WARNING  | energy_forecasting.data.validator:clean_energy:72 |   forecast_load_mw: 1 outliers outside [2000, 12000] MW — set to NaN
+2026-09-13 17:30:25 | INFO     | energy_forecasting.data.validator:clean_energy:88 |   actual_load_mw: interpolated 50 missing values
+2026-09-13 17:30:25 | INFO     | energy_forecasting.data.validator:clean_energy:88 |   forecast_load_mw: interpolated 96 missing values
+2026-09-13 17:30:25 | WARNING  | energy_forecasting.data.validator:clean_energy:92 |   forecast_load_mw: 22 values still missing
+2026-09-13 17:30:25 | INFO     | energy_forecasting.data.validator:clean_energy:97 |   Energy cleaning complete: 80599 → 58728 rows
+2026-09-13 17:30:25 | INFO     | energy_forecasting.data.validator:clean_weather:112 | Cleaning weather data: 58776 raw rows
+2026-09-13 17:30:25 | INFO     | energy_forecasting.data.validator:clean_weather:118 |   Removed 24 duplicate timestamps
+2026-09-13 17:30:25 | INFO     | energy_forecasting.data.validator:clean_weather:125 |   Resampled to hourly: 58752 rows
+2026-09-13 17:30:25 | INFO     | energy_forecasting.data.validator:clean_weather:144 |   Weather cleaning complete: 58752 rows
+2026-09-13 17:30:25 | INFO     | energy_forecasting.data.validator:merge_and_save:159 | Merging energy and weather data
+2026-09-13 17:30:25 | INFO     | energy_forecasting.data.validator:merge_and_save:164 |   Merged: 58728 rows (2020-01-01 00:00:00+00:00 to 2026-09-12 23:00:00+00:00)
+2026-09-13 17:30:25 | INFO     | energy_forecasting.data.validator:merge_and_save:175 |   Saved to data\processed\dataset.parquet (1.4 MB)
+2026-09-15 18:25:19 | INFO     | __main__:<module>:9 | Loading processed dataset
+2026-09-15 18:25:24 | INFO     | energy_forecasting.data.feature_engineer:build_features:139 | Starting feature engineering: 58728 rows
+2026-09-15 18:25:24 | INFO     | energy_forecasting.data.feature_engineer:add_temporal_features:41 | Adding temporal features
+2026-09-15 18:25:24 | INFO     | energy_forecasting.data.feature_engineer:add_temporal_features:60 |   Added 10 temporal features
+2026-09-15 18:25:24 | INFO     | energy_forecasting.data.feature_engineer:add_calendar_features:71 | Adding calendar features
+2026-09-15 18:25:29 | INFO     | energy_forecasting.data.feature_engineer:add_calendar_features:97 |   Added 3 calendar features (83 holiday days found)
+2026-09-15 18:25:29 | INFO     | energy_forecasting.data.feature_engineer:add_weather_features:109 | Adding weather features
+2026-09-15 18:25:29 | INFO     | energy_forecasting.data.feature_engineer:add_weather_features:124 |   Added 4 weather features
+2026-09-15 18:25:29 | INFO     | energy_forecasting.data.feature_engineer:add_weather_features:125 |   HDD range: 0.0 to 19.3
+2026-09-15 18:25:29 | INFO     | energy_forecasting.data.feature_engineer:add_weather_features:126 |   CDD range: 0.0 to 23.6
+2026-09-15 18:25:29 | INFO     | energy_forecasting.data.feature_engineer:build_features:151 | Feature engineering complete: 25 columns, 58728 rows, saved to data\features\dataset.parquet (1.9 MB)
+2026-09-18 00:36:33 | INFO     | __main__:<module>:44 | Loading feature dataset
+2026-09-18 00:36:39 | INFO     | __main__:<module>:56 | Evaluating on 89 daily forecasts
+2026-09-18 00:36:39 | INFO     | __main__:evaluate_forecaster:38 | Naive: MAPE = 20.21%, MAE = 1199 MW
+2026-09-18 00:36:40 | INFO     | __main__:evaluate_forecaster:38 | Seasonal Naive: MAPE = 6.03%, MAE = 399 MW
+2026-09-18 00:49:52 | INFO     | __main__:<module>:48 | Loading feature dataset
+2026-09-18 00:49:53 | INFO     | __main__:<module>:60 | Evaluating on 89 daily forecasts
+2026-09-18 00:49:53 | INFO     | __main__:evaluate_forecaster:43 | Naive: MAPE = 20.21%, MAE = 1199 MW, RMSE = 1529 MW
+2026-09-18 00:49:54 | INFO     | __main__:evaluate_forecaster:43 | Seasonal Naive: MAPE = 6.03%, MAE = 399 MW, RMSE = 583 MW
+2026-09-18 00:50:10 | INFO     | __main__:<module>:48 | Loading feature dataset
+2026-09-18 00:50:11 | INFO     | __main__:<module>:60 | Evaluating on 89 daily forecasts
+2026-09-18 00:50:12 | INFO     | __main__:evaluate_forecaster:43 | Naive: MAPE = 20.21%, MAE = 1199 MW, RMSE = 1529 MW
+2026-09-18 00:50:12 | INFO     | __main__:evaluate_forecaster:43 | Seasonal Naive: MAPE = 6.03%, MAE = 399 MW, RMSE = 583 MW
+2026-09-22 22:41:41 | INFO     | __main__:<module>:11 | Loading feature dataset
+2026-09-22 22:41:55 | INFO     | energy_forecasting.models.forecaster:add_lag_features:64 | Adding lag features
+2026-09-22 22:41:55 | INFO     | energy_forecasting.models.forecaster:add_lag_features:69 |   load_lag_24h: 58704 valid values
+2026-09-22 22:41:55 | INFO     | energy_forecasting.models.forecaster:add_lag_features:69 |   load_lag_48h: 58680 valid values
+2026-09-22 22:41:55 | INFO     | energy_forecasting.models.forecaster:add_lag_features:69 |   load_lag_168h: 58560 valid values
+2026-09-22 22:41:55 | INFO     | energy_forecasting.models.forecaster:add_lag_features:87 |   Added 5 lag/rolling features
+2026-09-22 22:41:55 | INFO     | __main__:<module>:24 | Training on rows 0 to 56567; evaluation starts at row 56568
+2026-09-22 22:41:55 | INFO     | energy_forecasting.models.forecaster:train:118 | Training XGBoost on 56377 rows, 27 features
+2026-09-22 22:42:05 | INFO     | energy_forecasting.models.forecaster:train:129 |   Training MAE: 101 MW
+2026-09-22 22:42:06 | INFO     | __main__:<module>:38 | Evaluating on 89 daily forecasts
+2026-09-22 23:06:03 | INFO     | __main__:<module>:12 | Loading feature dataset
+2026-09-22 23:06:03 | INFO     | energy_forecasting.models.forecaster:add_lag_features:68 | Adding lag features
+2026-09-22 23:06:03 | INFO     | energy_forecasting.models.forecaster:add_lag_features:73 |   load_lag_24h: 58704 valid values
+2026-09-22 23:06:03 | INFO     | energy_forecasting.models.forecaster:add_lag_features:73 |   load_lag_48h: 58680 valid values
+2026-09-22 23:06:03 | INFO     | energy_forecasting.models.forecaster:add_lag_features:73 |   load_lag_168h: 58560 valid values
+2026-09-22 23:06:04 | INFO     | energy_forecasting.models.forecaster:add_lag_features:91 |   Added 5 lag/rolling features
+2026-09-22 23:06:04 | INFO     | __main__:<module>:34 | Training on rows 0 to 56567; evaluation starts at row 56568
+2026-09-22 23:06:04 | INFO     | energy_forecasting.models.forecaster:train:122 | Training XGBoost on 56377 rows, 27 features
+2026-09-22 23:12:17 | INFO     | __main__:<module>:12 | Loading feature dataset
+2026-09-22 23:12:19 | INFO     | energy_forecasting.models.forecaster:add_lag_features:68 | Adding lag features
+2026-09-22 23:12:20 | INFO     | energy_forecasting.models.forecaster:add_lag_features:73 |   load_lag_24h: 58704 valid values
+2026-09-22 23:12:20 | INFO     | energy_forecasting.models.forecaster:add_lag_features:73 |   load_lag_48h: 58680 valid values
+2026-09-22 23:12:20 | INFO     | energy_forecasting.models.forecaster:add_lag_features:73 |   load_lag_168h: 58560 valid values
+2026-09-22 23:12:20 | INFO     | energy_forecasting.models.forecaster:add_lag_features:91 |   Added 5 lag/rolling features
+2026-09-22 23:12:20 | INFO     | __main__:<module>:34 | Training on rows 0 to 56567; evaluation starts at row 56568
+2026-09-22 23:12:20 | INFO     | energy_forecasting.models.forecaster:train:122 | Training on 56377 rows, 27 features
+2026-09-22 23:12:23 | INFO     | energy_forecasting.models.forecaster:train:133 |   Training MAE: 114 MW
+2026-09-22 23:12:23 | INFO     | __main__:<module>:47 | Evaluating on 89 daily forecasts
+2026-09-23 13:40:08 | INFO     | __main__:<module>:11 | Loading feature dataset
+2026-09-23 13:40:13 | INFO     | energy_forecasting.models.lstm_model:__init__:135 | LSTM Pipeline using device: cpu
+2026-09-23 13:40:13 | INFO     | energy_forecasting.models.lstm_model:train:144 | Preparing LSTM training data
+2026-09-23 13:40:18 | INFO     | energy_forecasting.models.lstm_model:train:190 | Training LSTM: 50721 train samples, 5633 val samples, 50 epochs, 20 features
+2026-09-23 13:54:17 | INFO     | energy_forecasting.models.lstm_model:train:234 |   Epoch 10/50 — Train Loss: 0.024029, Val Loss: 0.035319
+2026-09-23 14:06:57 | INFO     | energy_forecasting.models.lstm_model:train:234 |   Epoch 20/50 — Train Loss: 0.011824, Val Loss: 0.043516
+2026-09-23 14:17:26 | INFO     | energy_forecasting.models.lstm_model:train:234 |   Epoch 30/50 — Train Loss: 0.008350, Val Loss: 0.043980
+2026-09-23 14:27:37 | INFO     | energy_forecasting.models.lstm_model:train:234 |   Epoch 40/50 — Train Loss: 0.006756, Val Loss: 0.044027
+2026-09-23 16:10:11 | INFO     | energy_forecasting.models.lstm_model:train:234 |   Epoch 50/50 — Train Loss: 0.006045, Val Loss: 0.046412
+2026-09-23 16:10:11 | INFO     | energy_forecasting.models.lstm_model:train:240 |   LSTM training complete
+2026-09-23 16:10:12 | INFO     | __main__:<module>:28 | Evaluating on 89 daily forecasts
+2026-09-27 17:47:58 | INFO     | __main__:<module>:11 | Loading feature dataset
+2026-09-27 17:48:01 | INFO     | energy_forecasting.models.transformer_model:train:80 | Preparing PatchTST training data
+2026-09-27 17:48:02 | INFO     | energy_forecasting.models.transformer_model:train:111 | Training PatchTST (univariate): 56568 rows, patch_len=24, max_steps=500
+2026-09-27 18:16:51 | INFO     | energy_forecasting.models.transformer_model:train:120 |   PatchTST training complete
+2026-09-27 18:16:52 | INFO     | __main__:<module>:28 | Evaluating on 89 daily forecasts
+2026-09-27 18:37:43 | INFO     | __main__:<module>:11 | Loading feature dataset
+2026-09-27 18:37:44 | INFO     | energy_forecasting.models.tide_model:train:115 | Preparing TiDE training data
+2026-09-27 18:37:44 | INFO     | energy_forecasting.models.tide_model:train:149 | Training TiDE: 56568 rows, 19 exogenous features, max_steps=500
+2026-09-27 18:58:13 | INFO     | energy_forecasting.models.tide_model:train:158 |   TiDE training complete
+2026-09-27 18:58:15 | INFO     | __main__:<module>:28 | Evaluating on 89 daily forecasts

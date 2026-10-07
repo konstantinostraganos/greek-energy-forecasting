@@ -1,0 +1,8 @@
+{
+  "mae": 1199.2959581772786,
+  "rmse": 1529.0192254673357,
+  "mape": 20.206274718484103,
+  "n_observations": 2136,
+  "n_cutoffs": 89,
+  "train_duration_seconds": 0.0
+}

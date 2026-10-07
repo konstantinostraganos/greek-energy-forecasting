@@ -1,0 +1,15 @@
+# Force GitHub linguist to show 100% Python
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+*.yml linguist-vendored
+*.yaml linguist-vendored
+*.toml linguist-vendored
+*.cfg linguist-vendored
+*.ini linguist-vendored
+*.md linguist-documentation
+*.txt linguist-vendored
+*.json linguist-vendored
+*.dockerfile linguist-vendored
+Dockerfile linguist-vendored
+ 

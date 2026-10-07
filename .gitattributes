@@ -12,4 +12,6 @@
 *.json linguist-vendored
 *.dockerfile linguist-vendored
 Dockerfile linguist-vendored
- 
+*.ipynb linguist-vendored
+Makefile linguist-vendored
+

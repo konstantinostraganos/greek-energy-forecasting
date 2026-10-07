@@ -34,3 +34,13 @@ Thumbs.db
 # MLflow local tracking
 mlruns/
 mlartifacts/
+
+# Logs
+lightning_logs/
+logs/
+
+# MLflow database
+mlflow.db
+
+# Pytest cache
+.pytest_cache/

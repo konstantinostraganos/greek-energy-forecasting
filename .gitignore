@@ -13,8 +13,8 @@ venv/
 .env
 
 # Data files — too large for Git
-data/
-models/
+/data/
+/models/
 
 # MLflow
 mlruns/

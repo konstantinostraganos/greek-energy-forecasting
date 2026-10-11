@@ -14,6 +14,7 @@ class TestWeatherClient:
         assert client.archive_url is not None
         assert len(client.locations) > 0
 
+    @pytest.mark.integration
     def test_fetch_single_location(self):
         """Should fetch weather data for one location."""
         client = WeatherClient()
@@ -29,6 +30,7 @@ class TestWeatherClient:
         # 3 days × 24 hours = 72 rows
         assert len(df) == 72
 
+    @pytest.mark.integration
     def test_fetch_weather_data_weighted(self):
         """Should return weighted average across all cities."""
         client = WeatherClient()
@@ -37,6 +39,7 @@ class TestWeatherClient:
         # 2 days × 24 hours = 48 rows
         assert len(df) == 48
 
+    @pytest.mark.integration
     def test_weather_columns(self):
         """Should have all expected weather columns."""
         client = WeatherClient()

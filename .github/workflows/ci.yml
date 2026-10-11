@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      # Same version as pyproject.toml so local and CI results always agree
+      - name: Install ruff
+        run: pip install ruff==0.16.6
+
+      - name: Lint
+        run: ruff check src/ tests/
+
+      - name: Check formatting
+        run: ruff format --check src/ tests/
+
+  test:
+    runs-on: ubuntu-latest
+    # Lint is fast; there is no point spending minutes on tests if it fails
+    needs: lint
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      # The default torch wheel bundles CUDA (~2 GB); runners have no GPU
+      - name: Install CPU-only PyTorch
+        run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Install project
+        run: pip install -e ".[dev]"
+
+      # Integration tests hit live APIs and would make CI depend on third-party uptime
+      - name: Run tests
+        run: pytest -m "not integration" -v

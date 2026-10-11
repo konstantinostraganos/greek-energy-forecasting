@@ -20,22 +20,19 @@ Cutoff convention: hour 10 UTC (12:00-13:00 Greek local).
 All timestamps in the dataset are UTC.
 """
 
-import time
 import json
+import time
 from pathlib import Path
 
-import numpy as np
-import pandas as pd
 import mlflow
+import pandas as pd
 from loguru import logger
 
 from energy_forecasting.config import settings
 from energy_forecasting.evaluation.metrics import compute_metrics
 from energy_forecasting.evaluation.model_registry import (
     get_model_config,
-    get_available_models,
 )
-
 
 # Evaluation constants
 EVAL_DAYS = 90
@@ -108,17 +105,28 @@ def run_evaluation(model_name: str) -> dict:
 
     if strategy == "expanding":
         all_results, total_train_time = _run_expanding(
-            config, df, cutoff_indices, needs_lags, model_name,
+            config,
+            df,
+            cutoff_indices,
+            needs_lags,
+            model_name,
         )
 
     elif strategy == "fixed":
         all_results, total_train_time = _run_fixed(
-            pipeline, df, train_end_idx, cutoff_indices, model_name,
+            pipeline,
+            df,
+            train_end_idx,
+            cutoff_indices,
+            model_name,
         )
 
     elif strategy == "none":
         all_results, total_train_time = _run_no_training(
-            pipeline, df, cutoff_indices, model_name,
+            pipeline,
+            df,
+            cutoff_indices,
+            model_name,
         )
 
     if not all_results:
@@ -126,8 +134,7 @@ def run_evaluation(model_name: str) -> dict:
 
     results_df = pd.concat(all_results, ignore_index=True)
     logger.info(
-        f"Generated {len(results_df)} forecast observations "
-        f"from {len(all_results)} cutoffs"
+        f"Generated {len(results_df)} forecast observations from {len(all_results)} cutoffs"
     )
 
     # --- 6. Compute metrics ---
@@ -139,7 +146,6 @@ def run_evaluation(model_name: str) -> dict:
     mlflow.set_experiment(EXPERIMENT_NAME)
 
     with mlflow.start_run(run_name=model_name):
-
         # Parameters
         mlflow.log_param("model_name", model_name)
         mlflow.log_param("model_family", config["model_family"])
@@ -151,6 +157,7 @@ def run_evaluation(model_name: str) -> dict:
         mlflow.log_param("eval_days", EVAL_DAYS)
         mlflow.log_param("n_cutoffs", len(all_results))
         mlflow.log_param("train_start", train_start_date)
+        mlflow.log_param("train_end", train_end_date)
         mlflow.log_param("eval_start", eval_start_date)
         mlflow.log_param("eval_end", eval_end_date)
 
@@ -240,9 +247,7 @@ def _run_expanding(config, df, cutoff_indices, needs_lags, model_name):
             all_results.append(result)
 
         if (i + 1) % 10 == 0:
-            logger.info(
-                f"  Expanding: {i + 1}/{len(cutoff_indices)} cutoffs done"
-            )
+            logger.info(f"  Expanding: {i + 1}/{len(cutoff_indices)} cutoffs done")
 
     return all_results, total_train_time
 
@@ -270,9 +275,7 @@ def _run_fixed(pipeline, df, train_end_idx, cutoff_indices, model_name):
             all_results.append(result)
 
         if (i + 1) % 10 == 0:
-            logger.info(
-                f"  Fixed: {i + 1}/{len(cutoff_indices)} cutoffs done"
-            )
+            logger.info(f"  Fixed: {i + 1}/{len(cutoff_indices)} cutoffs done")
 
     return all_results, total_train_time
 
@@ -298,9 +301,7 @@ def _make_forecast(pipeline, df, cutoff_idx, model_name):
 
     try:
         result = pipeline.predict(df, cutoff_idx)
-        result = result.dropna(
-            subset=["predicted_load_mw", "actual_load_mw"]
-        )
+        result = result.dropna(subset=["predicted_load_mw", "actual_load_mw"])
 
         if result.empty:
             return None

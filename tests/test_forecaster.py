@@ -1,7 +1,7 @@
 """Tests for the forecasting pipeline."""
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 import pytest
 
 from energy_forecasting.models.forecaster import ForecastPipeline
@@ -14,10 +14,12 @@ class TestLagFeatures:
         """Create a dataset with known values."""
 
         n_hours = 500
-        self.df = pd.DataFrame({
-            "timestamp": pd.date_range("2024-01-01", periods=n_hours, freq="h"),
-            "actual_load_mw": range(1000, 1000 + n_hours),
-        })
+        self.df = pd.DataFrame(
+            {
+                "timestamp": pd.date_range("2024-01-01", periods=n_hours, freq="h"),
+                "actual_load_mw": range(1000, 1000 + n_hours),
+            }
+        )
 
     def test_lag_24_correct(self):
         """load_lag_24h should equal actual_load 24 rows earlier."""
@@ -55,9 +57,8 @@ class TestLagFeatures:
         cutoff_idx = 300
         target_idx = cutoff_idx + 24  # worst case — farthest target
 
-        # lag_24 at target_idx looks at target_idx - 24 = cutoff_idx
-        lag_source_idx = target_idx - 24
-        assert lag_source_idx <= cutoff_idx
+        # The lag feature at the farthest target must equal the load observed at the cutoff
+        assert df.iloc[target_idx]["load_lag_24h"] == self.df.iloc[cutoff_idx]["actual_load_mw"]
 
     def test_rolling_uses_shifted_data(self):
         """Rolling mean should not include any data after shift point."""
@@ -84,32 +85,36 @@ class TestForecastPipeline:
         hours = np.arange(n_hours) % 24
         load = 5000 + 1000 * np.sin(2 * np.pi * hours / 24) + np.random.normal(0, 100, n_hours)
 
-        self.df = pd.DataFrame({
-            "timestamp": pd.date_range("2024-01-01", periods=n_hours, freq="h"),
-            "actual_load_mw": load,
-            "hour": hours,
-            "day_of_week": pd.date_range("2024-01-01", periods=n_hours, freq="h").dayofweek,
-            "month": pd.date_range("2024-01-01", periods=n_hours, freq="h").month,
-            "is_weekend": pd.date_range("2024-01-01", periods=n_hours, freq="h").dayofweek.isin([5, 6]).astype(int),
-            "hour_sin": np.sin(2 * np.pi * hours / 24),
-            "hour_cos": np.cos(2 * np.pi * hours / 24),
-            "dow_sin": np.zeros(n_hours),
-            "dow_cos": np.zeros(n_hours),
-            "month_sin": np.zeros(n_hours),
-            "month_cos": np.zeros(n_hours),
-            "is_holiday": np.zeros(n_hours),
-            "is_day_before_holiday": np.zeros(n_hours),
-            "is_day_after_holiday": np.zeros(n_hours),
-            "hdd": np.maximum(18 - 15, 0) * np.ones(n_hours),
-            "cdd": np.zeros(n_hours),
-            "temp_squared": 225 * np.ones(n_hours),
-            "apparent_temp": 18 * np.ones(n_hours),
-            "temperature_c": 15 * np.ones(n_hours),
-            "humidity_pct": 60 * np.ones(n_hours),
-            "solar_radiation_w_m2": 200 * np.ones(n_hours),
-            "wind_speed_kmh": 10 * np.ones(n_hours),
-            "precipitation_mm": np.zeros(n_hours),
-        })
+        self.df = pd.DataFrame(
+            {
+                "timestamp": pd.date_range("2024-01-01", periods=n_hours, freq="h"),
+                "actual_load_mw": load,
+                "hour": hours,
+                "day_of_week": pd.date_range("2024-01-01", periods=n_hours, freq="h").dayofweek,
+                "month": pd.date_range("2024-01-01", periods=n_hours, freq="h").month,
+                "is_weekend": pd.date_range("2024-01-01", periods=n_hours, freq="h")
+                .dayofweek.isin([5, 6])
+                .astype(int),
+                "hour_sin": np.sin(2 * np.pi * hours / 24),
+                "hour_cos": np.cos(2 * np.pi * hours / 24),
+                "dow_sin": np.zeros(n_hours),
+                "dow_cos": np.zeros(n_hours),
+                "month_sin": np.zeros(n_hours),
+                "month_cos": np.zeros(n_hours),
+                "is_holiday": np.zeros(n_hours),
+                "is_day_before_holiday": np.zeros(n_hours),
+                "is_day_after_holiday": np.zeros(n_hours),
+                "hdd": np.maximum(18 - 15, 0) * np.ones(n_hours),
+                "cdd": np.zeros(n_hours),
+                "temp_squared": 225 * np.ones(n_hours),
+                "apparent_temp": 18 * np.ones(n_hours),
+                "temperature_c": 15 * np.ones(n_hours),
+                "humidity_pct": 60 * np.ones(n_hours),
+                "solar_radiation_w_m2": 200 * np.ones(n_hours),
+                "wind_speed_kmh": 10 * np.ones(n_hours),
+                "precipitation_mm": np.zeros(n_hours),
+            }
+        )
 
         self.pipeline = ForecastPipeline()
         self.df = self.pipeline.add_lag_features(self.df)

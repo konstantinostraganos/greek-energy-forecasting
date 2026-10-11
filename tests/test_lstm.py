@@ -2,14 +2,13 @@
 
 import numpy as np
 import pandas as pd
-import torch
 import pytest
+import torch
 
 from energy_forecasting.models.lstm_model import (
     EnergyDataset,
     LSTMForecaster,
     LSTMPipeline,
-    SEQUENCE_FEATURES,
 )
 
 
@@ -93,29 +92,31 @@ class TestLSTMPipeline:
         load = 5000 + 1000 * np.sin(2 * np.pi * hours / 24)
         load += np.random.normal(0, 100, n_hours)
 
-        self.df = pd.DataFrame({
-            "timestamp": pd.date_range("2024-01-01", periods=n_hours, freq="h"),
-            "actual_load_mw": load,
-            "temperature_c": 15 + 10 * np.sin(2 * np.pi * hours / 24),
-            "humidity_pct": 60 + np.random.normal(0, 5, n_hours),
-            "solar_radiation_w_m2": np.maximum(0, 500 * np.sin(2 * np.pi * hours / 24)),
-            "wind_speed_kmh": 10 + np.random.normal(0, 2, n_hours),
-            "precipitation_mm": np.zeros(n_hours),
-            "hdd": np.maximum(18 - 15, 0) * np.ones(n_hours),
-            "cdd": np.zeros(n_hours),
-            "temp_squared": 225 * np.ones(n_hours),
-            "apparent_temp": 18 * np.ones(n_hours),
-            "hour_sin": np.sin(2 * np.pi * hours / 24),
-            "hour_cos": np.cos(2 * np.pi * hours / 24),
-            "dow_sin": np.zeros(n_hours),
-            "dow_cos": np.ones(n_hours),
-            "month_sin": np.zeros(n_hours),
-            "month_cos": np.ones(n_hours),
-            "is_weekend": np.zeros(n_hours),
-            "is_holiday": np.zeros(n_hours),
-            "is_day_before_holiday": np.zeros(n_hours),
-            "is_day_after_holiday": np.zeros(n_hours),
-        })
+        self.df = pd.DataFrame(
+            {
+                "timestamp": pd.date_range("2024-01-01", periods=n_hours, freq="h"),
+                "actual_load_mw": load,
+                "temperature_c": 15 + 10 * np.sin(2 * np.pi * hours / 24),
+                "humidity_pct": 60 + np.random.normal(0, 5, n_hours),
+                "solar_radiation_w_m2": np.maximum(0, 500 * np.sin(2 * np.pi * hours / 24)),
+                "wind_speed_kmh": 10 + np.random.normal(0, 2, n_hours),
+                "precipitation_mm": np.zeros(n_hours),
+                "hdd": np.maximum(18 - 15, 0) * np.ones(n_hours),
+                "cdd": np.zeros(n_hours),
+                "temp_squared": 225 * np.ones(n_hours),
+                "apparent_temp": 18 * np.ones(n_hours),
+                "hour_sin": np.sin(2 * np.pi * hours / 24),
+                "hour_cos": np.cos(2 * np.pi * hours / 24),
+                "dow_sin": np.zeros(n_hours),
+                "dow_cos": np.ones(n_hours),
+                "month_sin": np.zeros(n_hours),
+                "month_cos": np.ones(n_hours),
+                "is_weekend": np.zeros(n_hours),
+                "is_holiday": np.zeros(n_hours),
+                "is_day_before_holiday": np.zeros(n_hours),
+                "is_day_after_holiday": np.zeros(n_hours),
+            }
+        )
 
     def test_predict_before_train_raises(self):
         """Should raise error if predict called before train."""

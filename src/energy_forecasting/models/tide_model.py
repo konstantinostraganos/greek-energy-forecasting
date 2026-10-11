@@ -20,22 +20,32 @@ oracle feature. Production forecasting must use weather
 forecasts available at the forecast cutoff.
 """
 
-import numpy as np
 import pandas as pd
+from loguru import logger
 from neuralforecast import NeuralForecast
 from neuralforecast.models import TiDE
-from loguru import logger
-
 
 # Exogenous features available at forecast time (weather + calendar)
 EXOG_FEATURES = [
-    "temperature_c", "humidity_pct", "solar_radiation_w_m2",
-    "wind_speed_kmh", "precipitation_mm",
-    "hdd", "cdd", "temp_squared", "apparent_temp",
-    "hour_sin", "hour_cos", "dow_sin", "dow_cos",
-    "month_sin", "month_cos",
-    "is_weekend", "is_holiday",
-    "is_day_before_holiday", "is_day_after_holiday",
+    "temperature_c",
+    "humidity_pct",
+    "solar_radiation_w_m2",
+    "wind_speed_kmh",
+    "precipitation_mm",
+    "hdd",
+    "cdd",
+    "temp_squared",
+    "apparent_temp",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "month_sin",
+    "month_cos",
+    "is_weekend",
+    "is_holiday",
+    "is_day_before_holiday",
+    "is_day_after_holiday",
 ]
 
 
@@ -98,11 +108,13 @@ class TiDEPipeline:
         - plus any exogenous features
         """
 
-        nf_df = pd.DataFrame({
-            "unique_id": "GR",
-            "ds": df["timestamp"].values,
-            "y": df["actual_load_mw"].values,
-        })
+        nf_df = pd.DataFrame(
+            {
+                "unique_id": "GR",
+                "ds": df["timestamp"].values,
+                "y": df["actual_load_mw"].values,
+            }
+        )
 
         for col in EXOG_FEATURES:
             nf_df[col] = df[col].values
@@ -115,7 +127,7 @@ class TiDEPipeline:
         logger.info("Preparing TiDE training data")
         self._validate_features(df)
 
-        train_df = df.iloc[:train_end_idx + 1].copy()
+        train_df = df.iloc[: train_end_idx + 1].copy()
 
         # Check for NaN in required columns
         required_cols = ["actual_load_mw"] + EXOG_FEATURES
@@ -176,7 +188,7 @@ class TiDEPipeline:
             )
 
         # History: everything up to cutoff
-        history_df = df.iloc[:cutoff_idx + 1].copy()
+        history_df = df.iloc[: cutoff_idx + 1].copy()
         nf_history = self._to_nixtla_format(history_df)
 
         # Future exogenous features (oracle weather for backtesting)
@@ -184,16 +196,18 @@ class TiDEPipeline:
         forecast_end = forecast_start + self.HORIZON
         future_df = df.iloc[forecast_start:forecast_end].copy()
 
-        nf_future = pd.DataFrame({
-            "unique_id": "GR",
-            "ds": future_df["timestamp"].values,
-        })
+        nf_future = pd.DataFrame(
+            {
+                "unique_id": "GR",
+                "ds": future_df["timestamp"].values,
+            }
+        )
         for col in EXOG_FEATURES:
             nf_future[col] = future_df[col].values
 
         forecast = self.nf.predict(df=nf_history, futr_df=nf_future)
 
         result = future_df[["timestamp", "actual_load_mw"]].copy()
-        result["predicted_load_mw"] = forecast["TiDE"].values[:len(result)]
+        result["predicted_load_mw"] = forecast["TiDE"].values[: len(result)]
 
         return result[["timestamp", "predicted_load_mw", "actual_load_mw"]]

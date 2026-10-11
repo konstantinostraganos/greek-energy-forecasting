@@ -23,6 +23,7 @@ class HourlyForecast(BaseModel):
     lower_bound: float | None = None
     upper_bound: float | None = None
 
+
 class ForecastResponse(BaseModel):
     """Response from the /forecast endpoint."""
 

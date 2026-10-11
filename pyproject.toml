@@ -32,7 +32,7 @@ dependencies = [
 dev = [
     "pytest>=7.0",
     "pytest-cov>=4.0",
-    "ruff>=0.4",
+    "ruff==0.16.6",
     "matplotlib>=3.7",
     "seaborn>=0.12",
     "jupyter>=1.0",
@@ -44,6 +44,9 @@ where = ["src"]
 [tool.ruff]
 line-length = 99
 target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

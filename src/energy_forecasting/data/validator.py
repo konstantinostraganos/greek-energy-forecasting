@@ -9,6 +9,7 @@ from loguru import logger
 
 from energy_forecasting.config import settings
 
+
 class DataValidator:
     """Validates and cleans raw energy and weather data.
 
@@ -94,11 +95,9 @@ class DataValidator:
         # Reset index — timestamp back to column
         df = df.reset_index()
 
-        logger.info(
-            f"  Energy cleaning complete: {initial_rows} → {len(df)} rows"
-        )
+        logger.info(f"  Energy cleaning complete: {initial_rows} → {len(df)} rows")
 
-        return df  
+        return df
 
     def clean_weather(self, df: pd.DataFrame) -> pd.DataFrame:
         """Clean weather data.
@@ -161,10 +160,7 @@ class DataValidator:
         # Merge on timestamp — keep only hours that exist in both
         df = pd.merge(energy, weather, on="timestamp", how="inner")
 
-        logger.info(
-            f"  Merged: {len(df)} rows "
-            f"({df.timestamp.min()} to {df.timestamp.max()})"
-        )
+        logger.info(f"  Merged: {len(df)} rows ({df.timestamp.min()} to {df.timestamp.max()})")
 
         # Save to processed directory
         self.processed_dir.mkdir(parents=True, exist_ok=True)
@@ -174,4 +170,4 @@ class DataValidator:
         size_mb = filepath.stat().st_size / (1024 * 1024)
         logger.info(f"  Saved to {filepath} ({size_mb:.1f} MB)")
 
-        return df              
+        return df

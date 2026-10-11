@@ -12,7 +12,6 @@ a controlled experiment.
 """
 
 import pandas as pd
-from loguru import logger
 
 
 class EntsoEBenchmark:

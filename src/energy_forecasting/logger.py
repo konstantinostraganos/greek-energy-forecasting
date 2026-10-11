@@ -10,7 +10,7 @@ import sys
 
 from loguru import logger
 
-from energy_forecasting.config import PROJECT_ROOT, settings
+from energy_forecasting.config import PROJECT_ROOT
 
 # Directory for log files
 LOG_DIR = PROJECT_ROOT / "logs"
@@ -36,4 +36,3 @@ logger.add(
     retention="30 days",
     encoding="utf-8",
 )
-

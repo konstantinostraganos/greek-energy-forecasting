@@ -24,10 +24,12 @@ class TestTransformerPipeline:
         load = 5000 + 1000 * np.sin(2 * np.pi * hours / 24)
         load += np.random.normal(0, 100, n_hours)
 
-        self.df = pd.DataFrame({
-            "timestamp": pd.date_range("2024-01-01", periods=n_hours, freq="h"),
-            "actual_load_mw": load,
-        })
+        self.df = pd.DataFrame(
+            {
+                "timestamp": pd.date_range("2024-01-01", periods=n_hours, freq="h"),
+                "actual_load_mw": load,
+            }
+        )
 
     def test_predict_before_train_raises(self):
         """Should raise error if predict called before train."""
@@ -52,9 +54,7 @@ class TestTransformerPipeline:
         pipeline.train(self.df, train_end_idx=2500)
         result = pipeline.predict(self.df, cutoff_idx=2700)
 
-        assert list(result.columns) == [
-            "timestamp", "predicted_load_mw", "actual_load_mw"
-        ]
+        assert list(result.columns) == ["timestamp", "predicted_load_mw", "actual_load_mw"]
 
     def test_nixtla_format_conversion(self):
         """Nixtla format should have required columns (univariate)."""

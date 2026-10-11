@@ -13,6 +13,7 @@ from loguru import logger
 
 from energy_forecasting.config import settings
 
+
 class EntsoEClient:
     """Client for the ENTSO-E Transparency Platform API.
 
@@ -51,10 +52,7 @@ class EntsoEClient:
         """
 
         if not self.api_key:
-            raise ValueError(
-                "ENTSO-E API key not found. "
-                "Add ENTSOE_API_KEY to your .env file."
-            )
+            raise ValueError("ENTSO-E API key not found. Add ENTSOE_API_KEY to your .env file.")
 
         # ENTSO-E expects dates as: 202001010000
         period_start = start.strftime("%Y%m%d%H%M")
@@ -69,14 +67,12 @@ class EntsoEClient:
             "periodEnd": period_end,
         }
 
-        logger.info(
-            f"Fetching {process_type} data: {start.date()} to {end.date()}"
-        )
+        logger.info(f"Fetching {process_type} data: {start.date()} to {end.date()}")
 
         response = requests.get(self.base_url, params=params, timeout=30)
         response.raise_for_status()
 
-        return response.text  
+        return response.text
 
     def _parse_xml(self, xml_text: str) -> pd.DataFrame:
         """Parse ENTSO-E XML response into a DataFrame.
@@ -113,10 +109,12 @@ class EntsoEClient:
 
                 timestamp = period_start + (position - 1) * step
 
-                records.append({
-                    "timestamp": timestamp,
-                    "load_mw": quantity,
-                })
+                records.append(
+                    {
+                        "timestamp": timestamp,
+                        "load_mw": quantity,
+                    }
+                )
 
         df = pd.DataFrame(records)
 
@@ -180,6 +178,7 @@ class EntsoEClient:
         df = self._parse_xml(xml)
         df = df.rename(columns={"load_mw": "forecast_load_mw"})
         return df
+
     def fetch_full_dataset(
         self,
         start_date: str | None = None,
@@ -222,19 +221,27 @@ class EntsoEClient:
                 actual = self.get_actual_load(current, chunk_end)
                 chunks_actual.append(actual)
             except Exception as e:
-                logger.error(f"Failed to fetch actual load {current.date()} to {chunk_end.date()}: {e}")
+                logger.error(
+                    f"Failed to fetch actual load {current.date()} to {chunk_end.date()}: {e}"
+                )
 
             try:
                 forecast = self.get_day_ahead_forecast(current, chunk_end)
                 chunks_forecast.append(forecast)
             except Exception as e:
-                logger.error(f"Failed to fetch forecast {current.date()} to {chunk_end.date()}: {e}")
+                logger.error(
+                    f"Failed to fetch forecast {current.date()} to {chunk_end.date()}: {e}"
+                )
 
             current = chunk_end
 
         # Combine all chunks
-        df_actual = pd.concat(chunks_actual, ignore_index=True) if chunks_actual else pd.DataFrame()
-        df_forecast = pd.concat(chunks_forecast, ignore_index=True) if chunks_forecast else pd.DataFrame()
+        df_actual = (
+            pd.concat(chunks_actual, ignore_index=True) if chunks_actual else pd.DataFrame()
+        )
+        df_forecast = (
+            pd.concat(chunks_forecast, ignore_index=True) if chunks_forecast else pd.DataFrame()
+        )
 
         # Merge actual and forecast on timestamp
         if not df_actual.empty and not df_forecast.empty:
@@ -248,11 +255,11 @@ class EntsoEClient:
         df = df.drop_duplicates(subset="timestamp", keep="first")
 
         logger.info(
-            f"Dataset complete: {len(df)} rows, "
-            f"{df['timestamp'].min()} to {df['timestamp'].max()}"
+            f"Dataset complete: {len(df)} rows, {df['timestamp'].min()} to {df['timestamp'].max()}"
         )
 
         return df
+
     def save_raw_data(self, df: pd.DataFrame, filename: str = "entso_e_load.parquet") -> None:
         """Save raw data to Parquet format.
 
@@ -267,4 +274,4 @@ class EntsoEClient:
         df.to_parquet(filepath, index=False)
 
         size_mb = filepath.stat().st_size / (1024 * 1024)
-        logger.info(f"Saved {len(df)} rows to {filepath} ({size_mb:.1f} MB)")                      
+        logger.info(f"Saved {len(df)} rows to {filepath} ({size_mb:.1f} MB)")

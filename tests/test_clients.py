@@ -1,6 +1,5 @@
 """Tests for data collection clients."""
 
-import pandas as pd
 import pytest
 
 from energy_forecasting.data.weather_client import WeatherClient
@@ -60,6 +59,7 @@ class TestEntsoEClient:
     def test_client_initializes(self):
         """Client should load settings without errors."""
         from energy_forecasting.data.entso_e_client import EntsoEClient
+
         client = EntsoEClient()
         assert client.base_url is not None
         assert client.area_code == "10YGR-HTSO-----Y"
@@ -67,10 +67,12 @@ class TestEntsoEClient:
     def test_fetch_without_key_raises(self):
         """Should raise clear error when API key is missing."""
         from energy_forecasting.data.entso_e_client import EntsoEClient
+
         client = EntsoEClient()
         if client.api_key is None:
             with pytest.raises(ValueError, match="API key not found"):
                 from datetime import datetime
+
                 client._fetch_data(
                     document_type="A65",
                     process_type="A16",

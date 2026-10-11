@@ -1,12 +1,12 @@
 """Baseline forecasting models.
 
 Simple models that establish performance floor.
-More complex models should be evaluated against this baseline to determine whether they provide meaningful predictive improvement.
+More complex models should be evaluated against these baselines to determine
+whether they provide meaningful predictive improvement.
 """
 
-import pandas as pd
 import numpy as np
-from loguru import logger
+import pandas as pd
 
 
 class NaiveForecaster:
@@ -91,4 +91,4 @@ class SeasonalNaiveForecaster:
 
         future["predicted_load_mw"] = predictions
 
-        return future[["timestamp", "predicted_load_mw", "actual_load_mw"]]    
+        return future[["timestamp", "predicted_load_mw", "actual_load_mw"]]

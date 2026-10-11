@@ -8,25 +8,35 @@ oracle feature. Production forecasting must use weather
 forecasts available at the forecast cutoff.
 """
 
-import numpy as np
 import pandas as pd
 import torch
 import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
-from sklearn.preprocessing import StandardScaler
 from loguru import logger
-
+from sklearn.preprocessing import StandardScaler
+from torch.utils.data import DataLoader, Dataset
 
 # Features the LSTM sees in its input sequence
 SEQUENCE_FEATURES = [
     "actual_load_mw",
-    "temperature_c", "humidity_pct", "solar_radiation_w_m2",
-    "wind_speed_kmh", "precipitation_mm",
-    "hdd", "cdd", "temp_squared", "apparent_temp",
-    "hour_sin", "hour_cos", "dow_sin", "dow_cos",
-    "month_sin", "month_cos",
-    "is_weekend", "is_holiday",
-    "is_day_before_holiday", "is_day_after_holiday",
+    "temperature_c",
+    "humidity_pct",
+    "solar_radiation_w_m2",
+    "wind_speed_kmh",
+    "precipitation_mm",
+    "hdd",
+    "cdd",
+    "temp_squared",
+    "apparent_temp",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "month_sin",
+    "month_cos",
+    "is_weekend",
+    "is_holiday",
+    "is_day_before_holiday",
+    "is_day_after_holiday",
 ]
 
 
@@ -58,11 +68,11 @@ class EnergyDataset(Dataset):
 
     def __getitem__(self, idx):
         # Input: seq_len hours of features
-        x_seq = self.X[idx:idx + self.seq_len]
+        x_seq = self.X[idx : idx + self.seq_len]
 
         # Target: next forecast_horizon hours of load
         target_start = idx + self.seq_len
-        y_seq = self.y[target_start:target_start + self.forecast_horizon]
+        y_seq = self.y[target_start : target_start + self.forecast_horizon]
 
         return x_seq, y_seq
 
@@ -144,7 +154,7 @@ class LSTMPipeline:
         logger.info("Preparing LSTM training data")
 
         # Extract features and target — training data only
-        train_df = df.iloc[:train_end_idx + 1].copy()
+        train_df = df.iloc[: train_end_idx + 1].copy()
         train_df = train_df.dropna(subset=SEQUENCE_FEATURES)
 
         X_raw = train_df[SEQUENCE_FEATURES].values
@@ -159,22 +169,20 @@ class LSTMPipeline:
         train_size = len(X_scaled) - val_size
 
         train_dataset = EnergyDataset(
-            X_scaled[:train_size], y_scaled[:train_size],
+            X_scaled[:train_size],
+            y_scaled[:train_size],
             seq_len=self.SEQ_LEN,
             forecast_horizon=self.HORIZON,
         )
         val_dataset = EnergyDataset(
-            X_scaled[train_size - self.SEQ_LEN:], y_scaled[train_size - self.SEQ_LEN:],
+            X_scaled[train_size - self.SEQ_LEN :],
+            y_scaled[train_size - self.SEQ_LEN :],
             seq_len=self.SEQ_LEN,
             forecast_horizon=self.HORIZON,
         )
 
-        train_loader = DataLoader(
-            train_dataset, batch_size=self.batch_size, shuffle=True
-        )
-        val_loader = DataLoader(
-            val_dataset, batch_size=self.batch_size, shuffle=False
-        )
+        train_loader = DataLoader(train_dataset, batch_size=self.batch_size, shuffle=True)
+        val_loader = DataLoader(val_dataset, batch_size=self.batch_size, shuffle=False)
 
         # Initialize model
         n_features = len(SEQUENCE_FEATURES)
@@ -232,7 +240,7 @@ class LSTMPipeline:
                 avg_train = train_loss / n_train
                 avg_val = val_loss / n_val
                 logger.info(
-                    f"  Epoch {epoch+1}/{self.epochs} — "
+                    f"  Epoch {epoch + 1}/{self.epochs} — "
                     f"Train Loss: {avg_train:.6f}, Val Loss: {avg_val:.6f}"
                 )
 
@@ -253,12 +261,11 @@ class LSTMPipeline:
         seq_start = cutoff_idx - self.SEQ_LEN + 1
         if seq_start < 0:
             raise ValueError(
-                f"Not enough history: need {self.SEQ_LEN} hours, "
-                f"only {cutoff_idx + 1} available"
+                f"Not enough history: need {self.SEQ_LEN} hours, only {cutoff_idx + 1} available"
             )
 
         # Get input sequence
-        input_df = df.iloc[seq_start:cutoff_idx + 1]
+        input_df = df.iloc[seq_start : cutoff_idx + 1]
         X_raw = input_df[SEQUENCE_FEATURES].values
 
         # Scale using training-fitted scaler (transform only, no fit)
@@ -272,15 +279,13 @@ class LSTMPipeline:
             y_scaled = self.model(X_tensor).cpu().numpy().flatten()
 
         # Inverse scale predictions
-        y_pred = self.scaler_y.inverse_transform(
-            y_scaled.reshape(-1, 1)
-        ).flatten()
+        y_pred = self.scaler_y.inverse_transform(y_scaled.reshape(-1, 1)).flatten()
 
         # Build output DataFrame
         forecast_start = cutoff_idx + 1
         forecast_end = min(cutoff_idx + 1 + self.HORIZON, len(df))
         future = df.iloc[forecast_start:forecast_end].copy()
 
-        future["predicted_load_mw"] = y_pred[:len(future)]
+        future["predicted_load_mw"] = y_pred[: len(future)]
 
         return future[["timestamp", "predicted_load_mw", "actual_load_mw"]]

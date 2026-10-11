@@ -14,11 +14,10 @@ demand history, competing against tree-based models that
 use 27 handcrafted features.
 """
 
-import numpy as np
 import pandas as pd
+from loguru import logger
 from neuralforecast import NeuralForecast
 from neuralforecast.models import PatchTST
-from loguru import logger
 
 
 class TransformerPipeline:
@@ -68,18 +67,20 @@ class TransformerPipeline:
         - y: target variable
         """
 
-        return pd.DataFrame({
-            "unique_id": "GR",
-            "ds": df["timestamp"].values,
-            "y": df["actual_load_mw"].values,
-        })
+        return pd.DataFrame(
+            {
+                "unique_id": "GR",
+                "ds": df["timestamp"].values,
+                "y": df["actual_load_mw"].values,
+            }
+        )
 
     def train(self, df: pd.DataFrame, train_end_idx: int) -> None:
         """Train PatchTST on data up to train_end_idx."""
 
         logger.info("Preparing PatchTST training data")
 
-        train_df = df.iloc[:train_end_idx + 1].copy()
+        train_df = df.iloc[: train_end_idx + 1].copy()
 
         # Drop NaN only in the target column
         nan_count = train_df["actual_load_mw"].isna().sum()
@@ -138,7 +139,7 @@ class TransformerPipeline:
             )
 
         # History: everything up to cutoff
-        history_df = df.iloc[:cutoff_idx + 1].copy()
+        history_df = df.iloc[: cutoff_idx + 1].copy()
         nf_history = self._to_nixtla_format(history_df)
 
         # Predict — no future exogenous needed
@@ -150,6 +151,6 @@ class TransformerPipeline:
         future_df = df.iloc[forecast_start:forecast_end].copy()
 
         result = future_df[["timestamp", "actual_load_mw"]].copy()
-        result["predicted_load_mw"] = forecast["PatchTST"].values[:len(result)]
+        result["predicted_load_mw"] = forecast["PatchTST"].values[: len(result)]
 
         return result[["timestamp", "predicted_load_mw", "actual_load_mw"]]

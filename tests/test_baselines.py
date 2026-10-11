@@ -1,9 +1,9 @@
 """Tests for baseline forecasting models."""
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 
-from energy_forecasting.models.baselines import NaiveForecaster
+from energy_forecasting.models.baselines import NaiveForecaster, SeasonalNaiveForecaster
 
 
 class TestNaiveForecaster:
@@ -12,10 +12,12 @@ class TestNaiveForecaster:
     def setup_method(self):
         """Create a small test dataset."""
 
-        self.df = pd.DataFrame({
-            "timestamp": pd.date_range("2024-01-01", periods=48, freq="h"),
-            "actual_load_mw": np.random.uniform(4000, 7000, 48),
-        })
+        self.df = pd.DataFrame(
+            {
+                "timestamp": pd.date_range("2024-01-01", periods=48, freq="h"),
+                "actual_load_mw": np.random.uniform(4000, 7000, 48),
+            }
+        )
 
     def test_all_predictions_equal_last_known(self):
         """All 24 predictions should equal the cutoff value."""
@@ -39,8 +41,6 @@ class TestNaiveForecaster:
         assert "predicted_load_mw" in result.columns
         assert "actual_load_mw" in result.columns
 
-from energy_forecasting.models.baselines import NaiveForecaster, SeasonalNaiveForecaster
-
 
 class TestSeasonalNaiveForecaster:
     """Tests for Seasonal Naive baseline."""
@@ -49,10 +49,12 @@ class TestSeasonalNaiveForecaster:
         """Create test dataset with a clear daily pattern."""
 
         # 72 hours — enough for lag_24h to work
-        self.df = pd.DataFrame({
-            "timestamp": pd.date_range("2024-01-01", periods=72, freq="h"),
-            "actual_load_mw": list(range(4000, 4024)) * 3,  # repeating pattern
-        })
+        self.df = pd.DataFrame(
+            {
+                "timestamp": pd.date_range("2024-01-01", periods=72, freq="h"),
+                "actual_load_mw": list(range(4000, 4024)) * 3,  # repeating pattern
+            }
+        )
 
     def test_predictions_match_yesterday(self):
         """Each prediction should equal same hour 24h ago."""
@@ -71,4 +73,4 @@ class TestSeasonalNaiveForecaster:
 
         forecaster = SeasonalNaiveForecaster()
         result = forecaster.predict(self.df, cutoff_idx=47)
-        assert len(result) == 24        
+        assert len(result) == 24

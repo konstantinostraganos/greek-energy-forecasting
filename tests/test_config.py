@@ -1,8 +1,6 @@
 """Tests for configuration system."""
 
-from pathlib import Path
-
-from energy_forecasting.config import PROJECT_ROOT, Settings, load_settings, settings
+from energy_forecasting.config import PROJECT_ROOT, settings
 
 
 class TestSettings:

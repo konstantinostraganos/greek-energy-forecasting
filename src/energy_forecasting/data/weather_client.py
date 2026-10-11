@@ -97,14 +97,16 @@ class WeatherClient:
             for key in combined:
                 combined[key].extend(part[key])
 
-        df = pd.DataFrame({
-            "timestamp": pd.to_datetime(combined["time"], utc=True),
-            "temperature_c": combined["temperature_2m"],
-            "humidity_pct": combined["relative_humidity_2m"],
-            "solar_radiation_w_m2": combined["shortwave_radiation"],
-            "wind_speed_kmh": combined["wind_speed_10m"],
-            "precipitation_mm": combined["precipitation"],
-        })
+        df = pd.DataFrame(
+            {
+                "timestamp": pd.to_datetime(combined["time"], utc=True),
+                "temperature_c": combined["temperature_2m"],
+                "humidity_pct": combined["relative_humidity_2m"],
+                "solar_radiation_w_m2": combined["shortwave_radiation"],
+                "wind_speed_kmh": combined["wind_speed_10m"],
+                "precipitation_mm": combined["precipitation"],
+            }
+        )
 
         return df
 
@@ -142,9 +144,7 @@ class WeatherClient:
         weighted_sum = None
 
         for location in self.locations:
-            logger.info(
-                f"  Fetching {location.name} (weight={location.weight})"
-            )
+            logger.info(f"  Fetching {location.name} (weight={location.weight})")
 
             try:
                 df = self._fetch_location(

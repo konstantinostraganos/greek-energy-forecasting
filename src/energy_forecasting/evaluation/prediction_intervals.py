@@ -18,7 +18,6 @@ the actual value ~90% of the time.
 
 import numpy as np
 import pandas as pd
-from pathlib import Path
 from loguru import logger
 
 
@@ -64,11 +63,7 @@ class ConformalIntervals:
 
         # Compute quantile of absolute residuals per horizon step
         alpha = (1 + self.confidence) / 2
-        self.quantiles = (
-            df.groupby("horizon_step")["abs_residual"]
-            .quantile(alpha)
-            .to_dict()
-        )
+        self.quantiles = df.groupby("horizon_step")["abs_residual"].quantile(alpha).to_dict()
 
         self.is_fitted = True
 

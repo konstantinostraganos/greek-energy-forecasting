@@ -13,27 +13,26 @@ API docs (auto-generated):
 
 from pathlib import Path
 
+import holidays
 import numpy as np
 import pandas as pd
-import holidays
 from fastapi import FastAPI, HTTPException
 from loguru import logger
 
-from energy_forecasting.config import settings
 from energy_forecasting.api.schemas import (
     ForecastRequest,
     ForecastResponse,
+    HealthResponse,
     HourlyForecast,
     ModelInfo,
     ModelsResponse,
-    HealthResponse,
 )
+from energy_forecasting.config import settings
 from energy_forecasting.evaluation.model_registry import (
-    get_model_config,
     get_available_models,
+    get_model_config,
 )
 from energy_forecasting.evaluation.prediction_intervals import ConformalIntervals
-
 
 app = FastAPI(
     title="Greek Energy Forecasting API",
@@ -94,9 +93,15 @@ def _extend_with_skeleton(df, cutoff_idx):
     )
 
     weather_cols = [
-        "temperature_c", "humidity_pct", "solar_radiation_w_m2",
-        "wind_speed_kmh", "precipitation_mm",
-        "hdd", "cdd", "temp_squared", "apparent_temp",
+        "temperature_c",
+        "humidity_pct",
+        "solar_radiation_w_m2",
+        "wind_speed_kmh",
+        "precipitation_mm",
+        "hdd",
+        "cdd",
+        "temp_squared",
+        "apparent_temp",
     ]
     for col in weather_cols:
         if col in df.columns:
@@ -131,13 +136,15 @@ def list_models():
     models = []
     for name in get_available_models():
         config = get_model_config(name)
-        models.append(ModelInfo(
-            name=name,
-            model_family=config["model_family"],
-            feature_mode=config["feature_mode"],
-            weather_mode=config["weather_mode"],
-            training_strategy=config["training_strategy"],
-        ))
+        models.append(
+            ModelInfo(
+                name=name,
+                model_family=config["model_family"],
+                feature_mode=config["feature_mode"],
+                weather_mode=config["weather_mode"],
+                training_strategy=config["training_strategy"],
+            )
+        )
     return ModelsResponse(models=models)
 
 
@@ -196,9 +203,7 @@ def generate_forecast(request: ForecastRequest):
 
     if predictions_file.exists():
         try:
-            intervals = ConformalIntervals.from_parquet(
-                str(predictions_file), confidence=0.90
-            )
+            intervals = ConformalIntervals.from_parquet(str(predictions_file), confidence=0.90)
             result_with_intervals = intervals.predict(result)
             for _, row in result_with_intervals.iterrows():
                 step = int(row["horizon_step"])
@@ -210,13 +215,15 @@ def generate_forecast(request: ForecastRequest):
     predictions = []
     for i, (_, row) in enumerate(result.iterrows()):
         step = i + 1
-        predictions.append(HourlyForecast(
-            timestamp=str(row["timestamp"]),
-            predicted_load_mw=round(float(row["predicted_load_mw"]), 1),
-            horizon_step=step,
-            lower_bound=lower_bounds.get(step),
-            upper_bound=upper_bounds.get(step),
-        ))
+        predictions.append(
+            HourlyForecast(
+                timestamp=str(row["timestamp"]),
+                predicted_load_mw=round(float(row["predicted_load_mw"]), 1),
+                horizon_step=step,
+                lower_bound=lower_bounds.get(step),
+                upper_bound=upper_bounds.get(step),
+            )
+        )
 
     return ForecastResponse(
         model=model_name,

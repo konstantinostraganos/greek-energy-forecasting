@@ -25,9 +25,7 @@ def compute_metrics(results_df: pd.DataFrame) -> dict:
         ValueError: If no valid observations remain.
     """
 
-    df = results_df.dropna(
-        subset=["actual_load_mw", "predicted_load_mw"]
-    )
+    df = results_df.dropna(subset=["actual_load_mw", "predicted_load_mw"])
 
     if df.empty:
         raise ValueError("No valid observations for metric computation")
@@ -44,7 +42,7 @@ def compute_metrics(results_df: pd.DataFrame) -> dict:
         raise ValueError("All actual values are zero — cannot compute MAPE")
 
     mae = abs_errors.mean()
-    rmse = np.sqrt((errors ** 2).mean())
+    rmse = np.sqrt((errors**2).mean())
     mape = (abs_errors[nonzero_mask] / np.abs(actual[nonzero_mask])).mean() * 100
 
     return {

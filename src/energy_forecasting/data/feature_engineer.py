@@ -5,12 +5,13 @@ ready for model training. Creates temporal, weather,
 lag, and calendar features.
 """
 
-import pandas as pd
-import numpy as np
 import holidays
+import numpy as np
+import pandas as pd
 from loguru import logger
 
 from energy_forecasting.config import settings
+
 
 class FeatureEngineer:
     """Creates features for electricity demand forecasting.
@@ -57,7 +58,7 @@ class FeatureEngineer:
         df["month_sin"] = np.sin(2 * np.pi * df.month / 12)
         df["month_cos"] = np.cos(2 * np.pi * df.month / 12)
 
-        logger.info(f"  Added 10 temporal features")
+        logger.info("  Added 10 temporal features")
 
         return df
 
@@ -78,9 +79,7 @@ class FeatureEngineer:
         greek_holidays = holidays.Greece(years=years)
 
         # Is this day a holiday?
-        df["is_holiday"] = df.timestamp.dt.date.apply(
-            lambda d: d in greek_holidays
-        ).astype(int)
+        df["is_holiday"] = df.timestamp.dt.date.apply(lambda d: d in greek_holidays).astype(int)
 
         # Day before and after holidays also have different patterns
         holiday_dates = set(greek_holidays.keys())
@@ -115,13 +114,13 @@ class FeatureEngineer:
         df["cdd"] = np.maximum(df.temperature_c - self.COMFORT_TEMP, 0)
 
         # Temperature squared — captures non-linearity
-        df["temp_squared"] = df.temperature_c ** 2
+        df["temp_squared"] = df.temperature_c**2
 
         # Apparent temperature (simplified heat index)
         # Combines temperature and humidity effect
         df["apparent_temp"] = df.temperature_c + 0.05 * df.humidity_pct
 
-        logger.info(f"  Added 4 weather features")
+        logger.info("  Added 4 weather features")
         logger.info(f"  HDD range: {df.hdd.min():.1f} to {df.hdd.max():.1f}")
         logger.info(f"  CDD range: {df.cdd.min():.1f} to {df.cdd.max():.1f}")
 
@@ -154,4 +153,4 @@ class FeatureEngineer:
             f"saved to {filepath} ({size_mb:.1f} MB)"
         )
 
-        return df                            
+        return df

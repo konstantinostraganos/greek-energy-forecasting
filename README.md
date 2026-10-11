@@ -1,5 +1,7 @@
 # Greek Electricity Demand Forecasting
 
+[![CI](https://github.com/konstantinostraganos/greek-energy-forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/konstantinostraganos/greek-energy-forecasting/actions/workflows/ci.yml)
+
 End-to-end machine learning platform for 24-hour electricity demand forecasting in Greece, using real data from the ENTSO-E Transparency Platform and Open-Meteo weather API.
 
 ## Key Results

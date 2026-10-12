@@ -126,7 +126,7 @@ docker compose up
 
 ```bash
 # Clone and setup
-git clone https://github.com/YOUR_USERNAME/greek-energy-forecasting.git
+git clone https://github.com/konstantinostraganos/greek-energy-forecasting.git
 cd greek-energy-forecasting
 python -m venv venv
 venv\Scripts\activate        # Windows

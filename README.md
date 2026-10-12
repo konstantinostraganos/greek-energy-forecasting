@@ -112,7 +112,7 @@ git clone https://github.com/konstantinostraganos/greek-energy-forecasting.git
 cd greek-energy-forecasting
 
 # Add your ENTSO-E API key
- cp .env.example .env        # Windows: copy .env.example .env
+cp .env.example .env        # Windows: copy .env.example .env
 # Edit .env and add your key
 
 # Start API + Dashboard

@@ -80,7 +80,7 @@ greek-energy-forecasting/
 ├── Dockerfile                       # Docker image (CPU-only PyTorch)
 ├── docker-compose.yml               # API + Dashboard services
 ├── pyproject.toml                   # Project dependencies
-└── .env.example                             # API keys (not tracked)
+└── .env.example                     # Template for API keys 
 ```
 
 ## Features
@@ -136,7 +136,7 @@ venv\Scripts\activate        # Windows
 pip install -e .
 
 # Add your ENTSO-E API key
-cp .env.example .env
+cp .env.example .env        # Windows: copy .env.example .env
 # Edit .env and add your key
 
 # Download data

@@ -121,11 +121,17 @@ def _extend_with_skeleton(df, cutoff_idx):
 
 @app.get("/health", response_model=HealthResponse)
 def health_check():
-    """Check if the API is running and data is available."""
-    df = _get_dataset()
+    """Report service status without failing when the dataset is missing,
+    so the endpoint stays useful before the data pipeline has run."""
+    try:
+        rows = len(_get_dataset())
+        status = "healthy"
+    except FileNotFoundError:
+        rows = 0
+        status = "no_data"
     return HealthResponse(
-        status="healthy",
-        dataset_rows=len(df),
+        status=status,
+        dataset_rows=rows,
         available_models=len(get_available_models()),
     )
 

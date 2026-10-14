@@ -1,6 +1,7 @@
 services:
   api:
     build: .
+    image: greek-energy-forecasting
     container_name: energy-api
     command: uvicorn energy_forecasting.api.app:app --host 0.0.0.0 --port 8000
     ports:
@@ -13,6 +14,7 @@ services:
 
   dashboard:
     build: .
+    image: greek-energy-forecasting
     container_name: energy-dashboard
     command: streamlit run streamlit_app/app.py --server.port 8501 --server.address 0.0.0.0
     ports:

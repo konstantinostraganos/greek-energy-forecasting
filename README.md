@@ -115,6 +115,13 @@ cd greek-energy-forecasting
 cp .env.example .env        # Windows: copy .env.example .env
 # Edit .env and add your key
 
+# Build the image and run the data pipeline inside it (first time only)
+docker compose build
+docker compose run --rm api python scripts/download_data.py
+docker compose run --rm api python scripts/run_validation.py
+docker compose run --rm api python scripts/run_features.py
+docker compose run --rm api python scripts/run_evaluation.py --model xgboost
+
 # Start API + Dashboard
 docker compose up
 

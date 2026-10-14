@@ -21,14 +21,12 @@ COPY pyproject.toml .
 COPY src/ src/
 RUN pip install --no-cache-dir -e .
 
-# Copy everything else
+# Copy application code only; data is mounted at runtime and secrets
+# are injected by docker-compose, so neither is baked into the image
 COPY configs/ configs/
-COPY data/ data/
+COPY scripts/ scripts/
 COPY mlflow_artifacts_tmp/ mlflow_artifacts_tmp/
 COPY streamlit_app/ streamlit_app/
-
-# Copy .env if it exists (for ENTSO-E API key)
-COPY .env* ./
 
 # Default command (overridden by docker-compose)
 CMD ["uvicorn", "energy_forecasting.api.app:app", "--host", "0.0.0.0", "--port", "8000"]
